@@ -1,0 +1,39 @@
+speakeasyVersion: 1.630.0
+sources:
+    Dokploy API:
+        sourceNamespace: dokploy-api
+        sourceRevisionDigest: sha256:7ac5274bd5509dd1006ed9ace9e17bce4c557b8e89d82fa048dfc86226fa95b5
+        sourceBlobDigest: sha256:8c1ea93c1f069744eb7f61c88e56dc9762a1d46f01af0945c14e88c895cebc5f
+        tags:
+            - latest
+            - 1.0.0
+targets:
+    dokploy:
+        source: Dokploy API
+        sourceNamespace: dokploy-api
+        sourceRevisionDigest: sha256:7ac5274bd5509dd1006ed9ace9e17bce4c557b8e89d82fa048dfc86226fa95b5
+        sourceBlobDigest: sha256:8c1ea93c1f069744eb7f61c88e56dc9762a1d46f01af0945c14e88c895cebc5f
+        codeSamplesNamespace: dokploy-api-typescript-code-samples
+        codeSamplesRevisionDigest: sha256:c4530b7e7d63959fa0f5c119c30d6eef3d93f8512ff3e3182f50827b59d9e883
+workflow:
+    workflowVersion: 1.0.0
+    speakeasyVersion: latest
+    sources:
+        Dokploy API:
+            inputs:
+                - location: https://raw.githubusercontent.com/Dokploy/website/refs/heads/main/apps/docs/api.json
+            overlays:
+                - location: .speakeasy/speakeasy-modifications-overlay.yaml
+            output: .speakeasy/out.openapi.yaml
+            registry:
+                location: registry.speakeasyapi.dev/lukehagar/lukehagar/dokploy-api
+    targets:
+        dokploy:
+            target: typescript
+            source: Dokploy API
+            codeSamples:
+                registry:
+                    location: registry.speakeasyapi.dev/lukehagar/lukehagar/dokploy-api-typescript-code-samples
+                labelOverride:
+                    fixedValue: Typescript (SDK)
+                blocking: false

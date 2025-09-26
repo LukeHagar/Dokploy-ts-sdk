@@ -1,0 +1,2794 @@
+lockVersion: 2.0.0
+id: ff998d2f-a70c-4fe1-bec9-f5bb79308b4a
+management:
+  docChecksum: 57b0e09d5d900be8470e4c655d27d5b8
+  docVersion: 1.0.0
+  speakeasyVersion: 1.630.0
+  generationVersion: 2.716.10
+  releaseVersion: 0.1.2
+  configChecksum: 42a354977b7c236d1a223d78ecdcc936
+features:
+  typescript:
+    additionalDependencies: 0.1.0
+    constsAndDefaults: 0.1.12
+    core: 3.21.25
+    defaultEnabledRetries: 0.1.0
+    devContainers: 2.90.1
+    enumUnions: 0.1.0
+    envVarSecurityUsage: 0.1.2
+    globalSecurity: 2.82.14
+    globalSecurityCallbacks: 0.1.0
+    globalSecurityFlattening: 0.1.0
+    globalServerURLs: 2.82.5
+    groups: 2.81.2
+    methodArguments: 0.1.2
+    nameOverrides: 2.81.2
+    nullables: 0.1.1
+    responseFormat: 0.2.3
+    retries: 2.83.0
+    sdkHooks: 0.3.0
+    unions: 2.85.12
+generatedFiles:
+  - .devcontainer/README.md
+  - .devcontainer/devcontainer.json
+  - .devcontainer/setup.sh
+  - .gitattributes
+  - .npmignore
+  - FUNCTIONS.md
+  - RUNTIMES.md
+  - USAGE.md
+  - docs/lib/utils/retryconfig.md
+  - docs/models/errort.md
+  - docs/models/issue.md
+  - docs/models/operations/adminassignpermissionsrequest.md
+  - docs/models/operations/admincreateuserinvitationrequest.md
+  - docs/models/operations/admingetuserbytokenrequest.md
+  - docs/models/operations/adminremoveuserrequest.md
+  - docs/models/operations/applicationcleanqueuesrequest.md
+  - docs/models/operations/applicationcreaterequest.md
+  - docs/models/operations/applicationdeleterequest.md
+  - docs/models/operations/applicationdeployrequest.md
+  - docs/models/operations/applicationmarkrunningrequest.md
+  - docs/models/operations/applicationonerequest.md
+  - docs/models/operations/applicationreadappmonitoringrequest.md
+  - docs/models/operations/applicationreadtraefikconfigrequest.md
+  - docs/models/operations/applicationredeployrequest.md
+  - docs/models/operations/applicationrefreshtokenrequest.md
+  - docs/models/operations/applicationreloadrequest.md
+  - docs/models/operations/applicationsavebitbucketproviderrequest.md
+  - docs/models/operations/applicationsavebuildtypebuildtype.md
+  - docs/models/operations/applicationsavebuildtyperequest.md
+  - docs/models/operations/applicationsavedockerproviderrequest.md
+  - docs/models/operations/applicationsaveenvironmentrequest.md
+  - docs/models/operations/applicationsavegithubproviderrequest.md
+  - docs/models/operations/applicationsavegitlabproviderrequest.md
+  - docs/models/operations/applicationsavegitprodiverrequest.md
+  - docs/models/operations/applicationstartrequest.md
+  - docs/models/operations/applicationstoprequest.md
+  - docs/models/operations/applicationupdateapplicationstatus.md
+  - docs/models/operations/applicationupdatebuildtype.md
+  - docs/models/operations/applicationupdaterequest.md
+  - docs/models/operations/applicationupdatesourcetype.md
+  - docs/models/operations/applicationupdatetraefikconfigrequest.md
+  - docs/models/operations/apptype.md
+  - docs/models/operations/apptypedockercompose.md
+  - docs/models/operations/apptypestack.md
+  - docs/models/operations/authconfirmemailrequest.md
+  - docs/models/operations/authcreateadminrequest.md
+  - docs/models/operations/authcreateuserrequest.md
+  - docs/models/operations/authloginrequest.md
+  - docs/models/operations/authonerequest.md
+  - docs/models/operations/authresetpasswordrequest.md
+  - docs/models/operations/authsendresetpasswordemailrequest.md
+  - docs/models/operations/authupdaterequest.md
+  - docs/models/operations/authverify2fasetuprequest.md
+  - docs/models/operations/authverifylogin2farequest.md
+  - docs/models/operations/backupcreaterequest.md
+  - docs/models/operations/backupmanualbackupmariadbrequest.md
+  - docs/models/operations/backupmanualbackupmongorequest.md
+  - docs/models/operations/backupmanualbackupmysqlrequest.md
+  - docs/models/operations/backupmanualbackuppostgresrequest.md
+  - docs/models/operations/backuponerequest.md
+  - docs/models/operations/backupremoverequest.md
+  - docs/models/operations/backupupdaterequest.md
+  - docs/models/operations/bitbucketcreaterequest.md
+  - docs/models/operations/bitbucketgetbitbucketbranchesrequest.md
+  - docs/models/operations/bitbucketgetbitbucketrepositoriesrequest.md
+  - docs/models/operations/bitbucketonerequest.md
+  - docs/models/operations/bitbuckettestconnectionrequest.md
+  - docs/models/operations/bitbucketupdaterequest.md
+  - docs/models/operations/certificatescreaterequest.md
+  - docs/models/operations/certificatesonerequest.md
+  - docs/models/operations/certificatesremoverequest.md
+  - docs/models/operations/clusterremoveworkerrequest.md
+  - docs/models/operations/composecleanqueuesrequest.md
+  - docs/models/operations/composecreatecomposetype.md
+  - docs/models/operations/composecreaterequest.md
+  - docs/models/operations/composedeleterequest.md
+  - docs/models/operations/composedeployrequest.md
+  - docs/models/operations/composedeploytemplaterequest.md
+  - docs/models/operations/composefetchsourcetyperequest.md
+  - docs/models/operations/composegetconvertedcomposerequest.md
+  - docs/models/operations/composegetdefaultcommandrequest.md
+  - docs/models/operations/composeonerequest.md
+  - docs/models/operations/composerandomizecomposerequest.md
+  - docs/models/operations/composeredeployrequest.md
+  - docs/models/operations/composerefreshtokenrequest.md
+  - docs/models/operations/composestatus.md
+  - docs/models/operations/composestoprequest.md
+  - docs/models/operations/composeupdatecomposetype.md
+  - docs/models/operations/composeupdaterequest.md
+  - docs/models/operations/composeupdatesourcetype.md
+  - docs/models/operations/databasetype.md
+  - docs/models/operations/deploymentallbycomposerequest.md
+  - docs/models/operations/deploymentallbyserverrequest.md
+  - docs/models/operations/deploymentallrequest.md
+  - docs/models/operations/destinationcreaterequest.md
+  - docs/models/operations/destinationonerequest.md
+  - docs/models/operations/destinationremoverequest.md
+  - docs/models/operations/destinationtestconnectionrequest.md
+  - docs/models/operations/destinationupdaterequest.md
+  - docs/models/operations/dockergetconfigrequest.md
+  - docs/models/operations/dockergetcontainersbyapplabelrequest.md
+  - docs/models/operations/dockergetcontainersbyappnamematchrequest.md
+  - docs/models/operations/dockergetcontainersrequest.md
+  - docs/models/operations/dockerrestartcontainerrequest.md
+  - docs/models/operations/domainbyapplicationidrequest.md
+  - docs/models/operations/domainbycomposeidrequest.md
+  - docs/models/operations/domaincreatecertificatetype.md
+  - docs/models/operations/domaincreatedomaintype.md
+  - docs/models/operations/domaincreaterequest.md
+  - docs/models/operations/domaindeleterequest.md
+  - docs/models/operations/domaingeneratedomainrequest.md
+  - docs/models/operations/domainonerequest.md
+  - docs/models/operations/domainupdatecertificatetype.md
+  - docs/models/operations/domainupdatedomaintype.md
+  - docs/models/operations/domainupdaterequest.md
+  - docs/models/operations/driveropts.md
+  - docs/models/operations/githubgetgithubbranchesrequest.md
+  - docs/models/operations/githubgetgithubrepositoriesrequest.md
+  - docs/models/operations/githubonerequest.md
+  - docs/models/operations/githubtestconnectionrequest.md
+  - docs/models/operations/githubupdaterequest.md
+  - docs/models/operations/gitlabcreaterequest.md
+  - docs/models/operations/gitlabgetgitlabbranchesrequest.md
+  - docs/models/operations/gitlabgetgitlabrepositoriesrequest.md
+  - docs/models/operations/gitlabonerequest.md
+  - docs/models/operations/gitlabtestconnectionrequest.md
+  - docs/models/operations/gitlabupdaterequest.md
+  - docs/models/operations/gitproviderremoverequest.md
+  - docs/models/operations/global.md
+  - docs/models/operations/globaljob.md
+  - docs/models/operations/healthcheckswarm.md
+  - docs/models/operations/mariadbchangestatusapplicationstatus.md
+  - docs/models/operations/mariadbchangestatusrequest.md
+  - docs/models/operations/mariadbcreaterequest.md
+  - docs/models/operations/mariadbdeployrequest.md
+  - docs/models/operations/mariadbonerequest.md
+  - docs/models/operations/mariadbreloadrequest.md
+  - docs/models/operations/mariadbremoverequest.md
+  - docs/models/operations/mariadbsaveenvironmentrequest.md
+  - docs/models/operations/mariadbsaveexternalportrequest.md
+  - docs/models/operations/mariadbstartrequest.md
+  - docs/models/operations/mariadbstoprequest.md
+  - docs/models/operations/mariadbupdateapplicationstatus.md
+  - docs/models/operations/mariadbupdaterequest.md
+  - docs/models/operations/modeswarm.md
+  - docs/models/operations/mongochangestatusapplicationstatus.md
+  - docs/models/operations/mongochangestatusrequest.md
+  - docs/models/operations/mongocreaterequest.md
+  - docs/models/operations/mongodeployrequest.md
+  - docs/models/operations/mongoonerequest.md
+  - docs/models/operations/mongoreloadrequest.md
+  - docs/models/operations/mongoremoverequest.md
+  - docs/models/operations/mongosaveenvironmentrequest.md
+  - docs/models/operations/mongosaveexternalportrequest.md
+  - docs/models/operations/mongostartrequest.md
+  - docs/models/operations/mongostoprequest.md
+  - docs/models/operations/mongoupdateapplicationstatus.md
+  - docs/models/operations/mongoupdaterequest.md
+  - docs/models/operations/mountscreaterequest.md
+  - docs/models/operations/mountscreateservicetype.md
+  - docs/models/operations/mountscreatetype.md
+  - docs/models/operations/mountsonerequest.md
+  - docs/models/operations/mountsremoverequest.md
+  - docs/models/operations/mountsupdaterequest.md
+  - docs/models/operations/mountsupdateservicetype.md
+  - docs/models/operations/mountsupdatetype.md
+  - docs/models/operations/mysqlchangestatusapplicationstatus.md
+  - docs/models/operations/mysqlchangestatusrequest.md
+  - docs/models/operations/mysqlcreaterequest.md
+  - docs/models/operations/mysqldeployrequest.md
+  - docs/models/operations/mysqlonerequest.md
+  - docs/models/operations/mysqlreloadrequest.md
+  - docs/models/operations/mysqlremoverequest.md
+  - docs/models/operations/mysqlsaveenvironmentrequest.md
+  - docs/models/operations/mysqlsaveexternalportrequest.md
+  - docs/models/operations/mysqlstartrequest.md
+  - docs/models/operations/mysqlstoprequest.md
+  - docs/models/operations/mysqlupdateapplicationstatus.md
+  - docs/models/operations/mysqlupdaterequest.md
+  - docs/models/operations/networkswarm.md
+  - docs/models/operations/notificationcreatediscordrequest.md
+  - docs/models/operations/notificationcreateemailrequest.md
+  - docs/models/operations/notificationcreateslackrequest.md
+  - docs/models/operations/notificationcreatetelegramrequest.md
+  - docs/models/operations/notificationonerequest.md
+  - docs/models/operations/notificationremoverequest.md
+  - docs/models/operations/notificationtestdiscordconnectionrequest.md
+  - docs/models/operations/notificationtestemailconnectionrequest.md
+  - docs/models/operations/notificationtestslackconnectionrequest.md
+  - docs/models/operations/notificationtesttelegramconnectionrequest.md
+  - docs/models/operations/notificationupdatediscordrequest.md
+  - docs/models/operations/notificationupdateemailrequest.md
+  - docs/models/operations/notificationupdateslackrequest.md
+  - docs/models/operations/notificationupdatetelegramrequest.md
+  - docs/models/operations/placementswarm.md
+  - docs/models/operations/platform.md
+  - docs/models/operations/portcreateprotocol.md
+  - docs/models/operations/portcreaterequest.md
+  - docs/models/operations/portdeleterequest.md
+  - docs/models/operations/portonerequest.md
+  - docs/models/operations/portupdateprotocol.md
+  - docs/models/operations/portupdaterequest.md
+  - docs/models/operations/postgreschangestatusapplicationstatus.md
+  - docs/models/operations/postgreschangestatusrequest.md
+  - docs/models/operations/postgrescreaterequest.md
+  - docs/models/operations/postgresdeployrequest.md
+  - docs/models/operations/postgresonerequest.md
+  - docs/models/operations/postgresreloadrequest.md
+  - docs/models/operations/postgresremoverequest.md
+  - docs/models/operations/postgressaveenvironmentrequest.md
+  - docs/models/operations/postgressaveexternalportrequest.md
+  - docs/models/operations/postgresstartrequest.md
+  - docs/models/operations/postgresstoprequest.md
+  - docs/models/operations/postgresupdateapplicationstatus.md
+  - docs/models/operations/postgresupdaterequest.md
+  - docs/models/operations/preference.md
+  - docs/models/operations/projectcreaterequest.md
+  - docs/models/operations/projectonerequest.md
+  - docs/models/operations/projectremoverequest.md
+  - docs/models/operations/projectupdaterequest.md
+  - docs/models/operations/redirectscreaterequest.md
+  - docs/models/operations/redirectsdeleterequest.md
+  - docs/models/operations/redirectsonerequest.md
+  - docs/models/operations/redirectsupdaterequest.md
+  - docs/models/operations/redischangestatusapplicationstatus.md
+  - docs/models/operations/redischangestatusrequest.md
+  - docs/models/operations/rediscreaterequest.md
+  - docs/models/operations/redisdeployrequest.md
+  - docs/models/operations/redisonerequest.md
+  - docs/models/operations/redisreloadrequest.md
+  - docs/models/operations/redisremoverequest.md
+  - docs/models/operations/redissaveenvironmentrequest.md
+  - docs/models/operations/redissaveexternalportrequest.md
+  - docs/models/operations/redisstartrequest.md
+  - docs/models/operations/redisstoprequest.md
+  - docs/models/operations/redisupdateapplicationstatus.md
+  - docs/models/operations/redisupdaterequest.md
+  - docs/models/operations/registrycreateregistrytype.md
+  - docs/models/operations/registrycreaterequest.md
+  - docs/models/operations/registryonerequest.md
+  - docs/models/operations/registryremoverequest.md
+  - docs/models/operations/registrytestregistryregistrytype.md
+  - docs/models/operations/registrytestregistryrequest.md
+  - docs/models/operations/registryupdateregistrytype.md
+  - docs/models/operations/registryupdaterequest.md
+  - docs/models/operations/replicated.md
+  - docs/models/operations/replicatedjob.md
+  - docs/models/operations/restartpolicyswarm.md
+  - docs/models/operations/rol.md
+  - docs/models/operations/rollbackconfigswarm.md
+  - docs/models/operations/securitycreaterequest.md
+  - docs/models/operations/securitydeleterequest.md
+  - docs/models/operations/securityonerequest.md
+  - docs/models/operations/securityupdaterequest.md
+  - docs/models/operations/servercreaterequest.md
+  - docs/models/operations/serveronerequest.md
+  - docs/models/operations/serverremoverequest.md
+  - docs/models/operations/serversetuprequest.md
+  - docs/models/operations/serverupdaterequest.md
+  - docs/models/operations/settingsassigndomainservercertificatetype.md
+  - docs/models/operations/settingsassigndomainserverrequest.md
+  - docs/models/operations/settingscleanallrequest.md
+  - docs/models/operations/settingscleandockerbuilderrequest.md
+  - docs/models/operations/settingscleandockerprunerequest.md
+  - docs/models/operations/settingscleanstoppedcontainersrequest.md
+  - docs/models/operations/settingscleanunusedimagesrequest.md
+  - docs/models/operations/settingscleanunusedvolumesrequest.md
+  - docs/models/operations/settingshavetraefikdashboardportenabledrequest.md
+  - docs/models/operations/settingsreaddirectoriesrequest.md
+  - docs/models/operations/settingsreadtraefikenvrequest.md
+  - docs/models/operations/settingsreadtraefikfilerequest.md
+  - docs/models/operations/settingsreloadtraefikrequest.md
+  - docs/models/operations/settingssavesshprivatekeyrequest.md
+  - docs/models/operations/settingstoggledashboardrequest.md
+  - docs/models/operations/settingstogglelogrotaterequest.md
+  - docs/models/operations/settingstogglerequestsrequest.md
+  - docs/models/operations/settingsupdatedockercleanuprequest.md
+  - docs/models/operations/settingsupdatemiddlewaretraefikconfigrequest.md
+  - docs/models/operations/settingsupdatetraefikconfigrequest.md
+  - docs/models/operations/settingsupdatetraefikfilerequest.md
+  - docs/models/operations/settingsupdatewebservertraefikconfigrequest.md
+  - docs/models/operations/settingswritetraefikenvrequest.md
+  - docs/models/operations/spread.md
+  - docs/models/operations/sshkeycreaterequest.md
+  - docs/models/operations/sshkeygeneraterequest.md
+  - docs/models/operations/sshkeygeneratetype.md
+  - docs/models/operations/sshkeyonerequest.md
+  - docs/models/operations/sshkeyremoverequest.md
+  - docs/models/operations/sshkeyupdaterequest.md
+  - docs/models/operations/stripecreatecheckoutsessionrequest.md
+  - docs/models/operations/updateconfigswarm.md
+  - docs/models/operations/userbyauthidrequest.md
+  - docs/models/operations/userbyuseridrequest.md
+  - docs/models/security.md
+  - docs/sdks/admin/README.md
+  - docs/sdks/application/README.md
+  - docs/sdks/auth/README.md
+  - docs/sdks/backup/README.md
+  - docs/sdks/bitbucket/README.md
+  - docs/sdks/certificates/README.md
+  - docs/sdks/cluster/README.md
+  - docs/sdks/compose/README.md
+  - docs/sdks/deployment/README.md
+  - docs/sdks/destination/README.md
+  - docs/sdks/docker/README.md
+  - docs/sdks/dokploy/README.md
+  - docs/sdks/domain/README.md
+  - docs/sdks/github/README.md
+  - docs/sdks/gitlab/README.md
+  - docs/sdks/gitprovider/README.md
+  - docs/sdks/mariadb/README.md
+  - docs/sdks/mongo/README.md
+  - docs/sdks/mounts/README.md
+  - docs/sdks/mysql/README.md
+  - docs/sdks/notification/README.md
+  - docs/sdks/notifications/README.md
+  - docs/sdks/port/README.md
+  - docs/sdks/postgres/README.md
+  - docs/sdks/project/README.md
+  - docs/sdks/redirects/README.md
+  - docs/sdks/redis/README.md
+  - docs/sdks/registry/README.md
+  - docs/sdks/security/README.md
+  - docs/sdks/server/README.md
+  - docs/sdks/servers/README.md
+  - docs/sdks/settings/README.md
+  - docs/sdks/sshkey/README.md
+  - docs/sdks/sshkeys/README.md
+  - docs/sdks/stripe/README.md
+  - docs/sdks/user/README.md
+  - eslint.config.mjs
+  - examples/.env.template
+  - examples/README.md
+  - examples/adminGetOne.example.ts
+  - examples/package.json
+  - jsr.json
+  - package.json
+  - src/core.ts
+  - src/funcs/adminAssignPermissions.ts
+  - src/funcs/adminCreateUserInvitation.ts
+  - src/funcs/adminGetOne.ts
+  - src/funcs/adminGetUserByToken.ts
+  - src/funcs/adminRemoveUser.ts
+  - src/funcs/applicationCleanQueues.ts
+  - src/funcs/applicationCreate.ts
+  - src/funcs/applicationDelete.ts
+  - src/funcs/applicationDeploy.ts
+  - src/funcs/applicationGetOne.ts
+  - src/funcs/applicationMarkRunning.ts
+  - src/funcs/applicationReadAppMonitoring.ts
+  - src/funcs/applicationReadTraefikConfig.ts
+  - src/funcs/applicationRedeploy.ts
+  - src/funcs/applicationRefreshToken.ts
+  - src/funcs/applicationReload.ts
+  - src/funcs/applicationSaveBitbucketProvider.ts
+  - src/funcs/applicationSaveBuildType.ts
+  - src/funcs/applicationSaveDockerProvider.ts
+  - src/funcs/applicationSaveEnvironment.ts
+  - src/funcs/applicationSaveGitProdiver.ts
+  - src/funcs/applicationSaveGithubProvider.ts
+  - src/funcs/applicationSaveGitlabProvider.ts
+  - src/funcs/applicationStart.ts
+  - src/funcs/applicationStop.ts
+  - src/funcs/applicationUpdate.ts
+  - src/funcs/applicationUpdateTraefikConfig.ts
+  - src/funcs/authConfirmEmail.ts
+  - src/funcs/authCreateAdmin.ts
+  - src/funcs/authCreateUser.ts
+  - src/funcs/authDisable2FA.ts
+  - src/funcs/authGenerate2FASecret.ts
+  - src/funcs/authGenerateToken.ts
+  - src/funcs/authGet.ts
+  - src/funcs/authGetOne.ts
+  - src/funcs/authLogin.ts
+  - src/funcs/authLogout.ts
+  - src/funcs/authResetPassword.ts
+  - src/funcs/authSendResetPasswordEmail.ts
+  - src/funcs/authUpdate.ts
+  - src/funcs/authVerify2faSetup.ts
+  - src/funcs/authVerifyLogin2FA.ts
+  - src/funcs/backupCreate.ts
+  - src/funcs/backupGet.ts
+  - src/funcs/backupManualBackupMariadb.ts
+  - src/funcs/backupManualBackupMongo.ts
+  - src/funcs/backupManualBackupMysql.ts
+  - src/funcs/backupManualBackupPostgres.ts
+  - src/funcs/backupRemove.ts
+  - src/funcs/backupUpdate.ts
+  - src/funcs/bitbucketCreate.ts
+  - src/funcs/bitbucketGet.ts
+  - src/funcs/bitbucketGetBranches.ts
+  - src/funcs/bitbucketGetRepositories.ts
+  - src/funcs/bitbucketProviders.ts
+  - src/funcs/bitbucketTestConnection.ts
+  - src/funcs/bitbucketUpdate.ts
+  - src/funcs/certificatesAll.ts
+  - src/funcs/certificatesCreate.ts
+  - src/funcs/certificatesGet.ts
+  - src/funcs/certificatesRemove.ts
+  - src/funcs/clusterAddManager.ts
+  - src/funcs/clusterAddWorker.ts
+  - src/funcs/clusterGetNodes.ts
+  - src/funcs/clusterRemoveWorker.ts
+  - src/funcs/composeCleanQueues.ts
+  - src/funcs/composeCreate.ts
+  - src/funcs/composeDelete.ts
+  - src/funcs/composeDeploy.ts
+  - src/funcs/composeDeployTemplate.ts
+  - src/funcs/composeFetchSourceType.ts
+  - src/funcs/composeGetConverted.ts
+  - src/funcs/composeGetDefaultCommand.ts
+  - src/funcs/composeGetOne.ts
+  - src/funcs/composeGetTags.ts
+  - src/funcs/composeGetTemplates.ts
+  - src/funcs/composeRandomizeCompose.ts
+  - src/funcs/composeRedeploy.ts
+  - src/funcs/composeRefreshToken.ts
+  - src/funcs/composeStop.ts
+  - src/funcs/composeUpdate.ts
+  - src/funcs/deploymentAllByCompose.ts
+  - src/funcs/deploymentAllByServer.ts
+  - src/funcs/deploymentGet.ts
+  - src/funcs/destinationCreate.ts
+  - src/funcs/destinationGet.ts
+  - src/funcs/destinationGetOne.ts
+  - src/funcs/destinationRemove.ts
+  - src/funcs/destinationTestConnection.ts
+  - src/funcs/destinationUpdate.ts
+  - src/funcs/dockerGetConfig.ts
+  - src/funcs/dockerGetContainers.ts
+  - src/funcs/dockerGetContainersByAppLabel.ts
+  - src/funcs/dockerGetContainersByAppNameMatch.ts
+  - src/funcs/dockerRestartContainer.ts
+  - src/funcs/domainByApplicationId.ts
+  - src/funcs/domainByComposeId.ts
+  - src/funcs/domainCreate.ts
+  - src/funcs/domainDelete.ts
+  - src/funcs/domainGenerateDomain.ts
+  - src/funcs/domainGet.ts
+  - src/funcs/domainUpdate.ts
+  - src/funcs/gitProviderGetAll.ts
+  - src/funcs/gitProviderRemove.ts
+  - src/funcs/githubGetBranches.ts
+  - src/funcs/githubGetProviders.ts
+  - src/funcs/githubGetRepositories.ts
+  - src/funcs/githubOne.ts
+  - src/funcs/githubTestConnection.ts
+  - src/funcs/githubUpdate.ts
+  - src/funcs/gitlabCreate.ts
+  - src/funcs/gitlabGetGitlabBranches.ts
+  - src/funcs/gitlabGetGitlabRepositories.ts
+  - src/funcs/gitlabOne.ts
+  - src/funcs/gitlabProviders.ts
+  - src/funcs/gitlabTestConnection.ts
+  - src/funcs/gitlabUpdate.ts
+  - src/funcs/mariadbChangeStatus.ts
+  - src/funcs/mariadbCreate.ts
+  - src/funcs/mariadbDeploy.ts
+  - src/funcs/mariadbGet.ts
+  - src/funcs/mariadbReload.ts
+  - src/funcs/mariadbRemove.ts
+  - src/funcs/mariadbSaveEnvironment.ts
+  - src/funcs/mariadbSaveExternalPort.ts
+  - src/funcs/mariadbStart.ts
+  - src/funcs/mariadbStop.ts
+  - src/funcs/mariadbUpdate.ts
+  - src/funcs/mongoChangeStatus.ts
+  - src/funcs/mongoCreate.ts
+  - src/funcs/mongoDeploy.ts
+  - src/funcs/mongoGet.ts
+  - src/funcs/mongoReload.ts
+  - src/funcs/mongoRemove.ts
+  - src/funcs/mongoSaveEnvironment.ts
+  - src/funcs/mongoSaveExternalPort.ts
+  - src/funcs/mongoStart.ts
+  - src/funcs/mongoStop.ts
+  - src/funcs/mongoUpdate.ts
+  - src/funcs/mountsCreate.ts
+  - src/funcs/mountsGet.ts
+  - src/funcs/mountsRemove.ts
+  - src/funcs/mountsUpdate.ts
+  - src/funcs/mysqlChangeStatus.ts
+  - src/funcs/mysqlCreate.ts
+  - src/funcs/mysqlDeploy.ts
+  - src/funcs/mysqlGet.ts
+  - src/funcs/mysqlReload.ts
+  - src/funcs/mysqlRemove.ts
+  - src/funcs/mysqlSaveEnvironment.ts
+  - src/funcs/mysqlSaveExternalPort.ts
+  - src/funcs/mysqlStart.ts
+  - src/funcs/mysqlStop.ts
+  - src/funcs/mysqlUpdate.ts
+  - src/funcs/notificationCreateDiscord.ts
+  - src/funcs/notificationCreateEmail.ts
+  - src/funcs/notificationCreateSlack.ts
+  - src/funcs/notificationCreateTelegram.ts
+  - src/funcs/notificationGetAll.ts
+  - src/funcs/notificationRemove.ts
+  - src/funcs/notificationTestDiscordConnection.ts
+  - src/funcs/notificationTestEmailConnection.ts
+  - src/funcs/notificationTestSlackConnection.ts
+  - src/funcs/notificationTestTelegramConnection.ts
+  - src/funcs/notificationUpdateDiscord.ts
+  - src/funcs/notificationUpdateEmail.ts
+  - src/funcs/notificationUpdateSlack.ts
+  - src/funcs/notificationUpdateTelegram.ts
+  - src/funcs/notificationsGet.ts
+  - src/funcs/portCreate.ts
+  - src/funcs/portDelete.ts
+  - src/funcs/portGet.ts
+  - src/funcs/portUpdate.ts
+  - src/funcs/postgresChangeStatus.ts
+  - src/funcs/postgresCreate.ts
+  - src/funcs/postgresDeploy.ts
+  - src/funcs/postgresGet.ts
+  - src/funcs/postgresReload.ts
+  - src/funcs/postgresRemove.ts
+  - src/funcs/postgresSaveEnvironment.ts
+  - src/funcs/postgresSaveExternalPort.ts
+  - src/funcs/postgresStart.ts
+  - src/funcs/postgresStop.ts
+  - src/funcs/postgresUpdate.ts
+  - src/funcs/projectAll.ts
+  - src/funcs/projectCreate.ts
+  - src/funcs/projectGet.ts
+  - src/funcs/projectRemove.ts
+  - src/funcs/projectUpdate.ts
+  - src/funcs/redirectsCreate.ts
+  - src/funcs/redirectsDelete.ts
+  - src/funcs/redirectsGetOne.ts
+  - src/funcs/redirectsUpdate.ts
+  - src/funcs/redisChangeStatus.ts
+  - src/funcs/redisCreate.ts
+  - src/funcs/redisDeploy.ts
+  - src/funcs/redisGet.ts
+  - src/funcs/redisReload.ts
+  - src/funcs/redisRemove.ts
+  - src/funcs/redisSaveEnvironment.ts
+  - src/funcs/redisSaveExternalPort.ts
+  - src/funcs/redisStart.ts
+  - src/funcs/redisStop.ts
+  - src/funcs/redisUpdate.ts
+  - src/funcs/registryCreate.ts
+  - src/funcs/registryGet.ts
+  - src/funcs/registryGetAll.ts
+  - src/funcs/registryRemove.ts
+  - src/funcs/registryTestRegistry.ts
+  - src/funcs/registryUpdate.ts
+  - src/funcs/securityCreate.ts
+  - src/funcs/securityDelete.ts
+  - src/funcs/securityGet.ts
+  - src/funcs/securityUpdate.ts
+  - src/funcs/serverAll.ts
+  - src/funcs/serverCreate.ts
+  - src/funcs/serverRemove.ts
+  - src/funcs/serverSetup.ts
+  - src/funcs/serverUpdate.ts
+  - src/funcs/serverWithSSHKey.ts
+  - src/funcs/serversGet.ts
+  - src/funcs/settingsAssignDomainServer.ts
+  - src/funcs/settingsCheckAndUpdateImage.ts
+  - src/funcs/settingsCleanAll.ts
+  - src/funcs/settingsCleanDockerBuilder.ts
+  - src/funcs/settingsCleanDockerPrune.ts
+  - src/funcs/settingsCleanMonitoring.ts
+  - src/funcs/settingsCleanSshPrivateKey.ts
+  - src/funcs/settingsCleanStoppedContainers.ts
+  - src/funcs/settingsCleanUnusedImages.ts
+  - src/funcs/settingsCleanUnusedVolumes.ts
+  - src/funcs/settingsGetDokployVersion.ts
+  - src/funcs/settingsGetIp.ts
+  - src/funcs/settingsGetLogRotateStatus.ts
+  - src/funcs/settingsGetOpenApiDocument.ts
+  - src/funcs/settingsHaveActivateRequests.ts
+  - src/funcs/settingsHaveTraefikDashboardPortEnabled.ts
+  - src/funcs/settingsHealth.ts
+  - src/funcs/settingsIsCloud.ts
+  - src/funcs/settingsReadDirectories.ts
+  - src/funcs/settingsReadMiddlewareTraefikConfig.ts
+  - src/funcs/settingsReadStats.ts
+  - src/funcs/settingsReadTraefikConfig.ts
+  - src/funcs/settingsReadTraefikEnv.ts
+  - src/funcs/settingsReadTraefikFile.ts
+  - src/funcs/settingsReadWebServerTraefikConfig.ts
+  - src/funcs/settingsReloadServer.ts
+  - src/funcs/settingsReloadTraefik.ts
+  - src/funcs/settingsSaveSshPrivateKey.ts
+  - src/funcs/settingsToggleDashboard.ts
+  - src/funcs/settingsToggleLogRotate.ts
+  - src/funcs/settingsToggleRequests.ts
+  - src/funcs/settingsUpdateDockerCleanup.ts
+  - src/funcs/settingsUpdateMiddlewareTraefikConfig.ts
+  - src/funcs/settingsUpdateServer.ts
+  - src/funcs/settingsUpdateTraefikConfig.ts
+  - src/funcs/settingsUpdateTraefikFile.ts
+  - src/funcs/settingsUpdateWebServerTraefikConfig.ts
+  - src/funcs/settingsWriteTraefikEnv.ts
+  - src/funcs/sshKeyGenerate.ts
+  - src/funcs/sshKeyGet.ts
+  - src/funcs/sshKeyRemove.ts
+  - src/funcs/sshKeyUpdate.ts
+  - src/funcs/sshKeysAll.ts
+  - src/funcs/sshKeysCreate.ts
+  - src/funcs/stripeCanCreateMoreServers.ts
+  - src/funcs/stripeCreateCheckoutSession.ts
+  - src/funcs/stripeCreateCustomerPortalSession.ts
+  - src/funcs/stripeGetProducts.ts
+  - src/funcs/userByAuthId.ts
+  - src/funcs/userByUserId.ts
+  - src/funcs/userGetAll.ts
+  - src/hooks/hooks.ts
+  - src/hooks/index.ts
+  - src/hooks/types.ts
+  - src/index.ts
+  - src/lib/base64.ts
+  - src/lib/config.ts
+  - src/lib/dlv.ts
+  - src/lib/encodings.ts
+  - src/lib/env.ts
+  - src/lib/files.ts
+  - src/lib/http.ts
+  - src/lib/is-plain-object.ts
+  - src/lib/logger.ts
+  - src/lib/matchers.ts
+  - src/lib/primitives.ts
+  - src/lib/retries.ts
+  - src/lib/schemas.ts
+  - src/lib/sdks.ts
+  - src/lib/security.ts
+  - src/lib/url.ts
+  - src/models/error.ts
+  - src/models/errors/dokploydefaulterror.ts
+  - src/models/errors/dokployerror.ts
+  - src/models/errors/httpclienterrors.ts
+  - src/models/errors/index.ts
+  - src/models/errors/responsevalidationerror.ts
+  - src/models/errors/sdkvalidationerror.ts
+  - src/models/index.ts
+  - src/models/operations/adminassignpermissions.ts
+  - src/models/operations/admincreateuserinvitation.ts
+  - src/models/operations/admingetuserbytoken.ts
+  - src/models/operations/adminremoveuser.ts
+  - src/models/operations/applicationcleanqueues.ts
+  - src/models/operations/applicationcreate.ts
+  - src/models/operations/applicationdelete.ts
+  - src/models/operations/applicationdeploy.ts
+  - src/models/operations/applicationmarkrunning.ts
+  - src/models/operations/applicationone.ts
+  - src/models/operations/applicationreadappmonitoring.ts
+  - src/models/operations/applicationreadtraefikconfig.ts
+  - src/models/operations/applicationredeploy.ts
+  - src/models/operations/applicationrefreshtoken.ts
+  - src/models/operations/applicationreload.ts
+  - src/models/operations/applicationsavebitbucketprovider.ts
+  - src/models/operations/applicationsavebuildtype.ts
+  - src/models/operations/applicationsavedockerprovider.ts
+  - src/models/operations/applicationsaveenvironment.ts
+  - src/models/operations/applicationsavegithubprovider.ts
+  - src/models/operations/applicationsavegitlabprovider.ts
+  - src/models/operations/applicationsavegitprodiver.ts
+  - src/models/operations/applicationstart.ts
+  - src/models/operations/applicationstop.ts
+  - src/models/operations/applicationupdate.ts
+  - src/models/operations/applicationupdatetraefikconfig.ts
+  - src/models/operations/authconfirmemail.ts
+  - src/models/operations/authcreateadmin.ts
+  - src/models/operations/authcreateuser.ts
+  - src/models/operations/authlogin.ts
+  - src/models/operations/authone.ts
+  - src/models/operations/authresetpassword.ts
+  - src/models/operations/authsendresetpasswordemail.ts
+  - src/models/operations/authupdate.ts
+  - src/models/operations/authverify2fasetup.ts
+  - src/models/operations/authverifylogin2fa.ts
+  - src/models/operations/backupcreate.ts
+  - src/models/operations/backupmanualbackupmariadb.ts
+  - src/models/operations/backupmanualbackupmongo.ts
+  - src/models/operations/backupmanualbackupmysql.ts
+  - src/models/operations/backupmanualbackuppostgres.ts
+  - src/models/operations/backupone.ts
+  - src/models/operations/backupremove.ts
+  - src/models/operations/backupupdate.ts
+  - src/models/operations/bitbucketcreate.ts
+  - src/models/operations/bitbucketgetbitbucketbranches.ts
+  - src/models/operations/bitbucketgetbitbucketrepositories.ts
+  - src/models/operations/bitbucketone.ts
+  - src/models/operations/bitbuckettestconnection.ts
+  - src/models/operations/bitbucketupdate.ts
+  - src/models/operations/certificatescreate.ts
+  - src/models/operations/certificatesone.ts
+  - src/models/operations/certificatesremove.ts
+  - src/models/operations/clusterremoveworker.ts
+  - src/models/operations/composecleanqueues.ts
+  - src/models/operations/composecreate.ts
+  - src/models/operations/composedelete.ts
+  - src/models/operations/composedeploy.ts
+  - src/models/operations/composedeploytemplate.ts
+  - src/models/operations/composefetchsourcetype.ts
+  - src/models/operations/composegetconvertedcompose.ts
+  - src/models/operations/composegetdefaultcommand.ts
+  - src/models/operations/composeone.ts
+  - src/models/operations/composerandomizecompose.ts
+  - src/models/operations/composeredeploy.ts
+  - src/models/operations/composerefreshtoken.ts
+  - src/models/operations/composestop.ts
+  - src/models/operations/composeupdate.ts
+  - src/models/operations/deploymentall.ts
+  - src/models/operations/deploymentallbycompose.ts
+  - src/models/operations/deploymentallbyserver.ts
+  - src/models/operations/destinationcreate.ts
+  - src/models/operations/destinationone.ts
+  - src/models/operations/destinationremove.ts
+  - src/models/operations/destinationtestconnection.ts
+  - src/models/operations/destinationupdate.ts
+  - src/models/operations/dockergetconfig.ts
+  - src/models/operations/dockergetcontainers.ts
+  - src/models/operations/dockergetcontainersbyapplabel.ts
+  - src/models/operations/dockergetcontainersbyappnamematch.ts
+  - src/models/operations/dockerrestartcontainer.ts
+  - src/models/operations/domainbyapplicationid.ts
+  - src/models/operations/domainbycomposeid.ts
+  - src/models/operations/domaincreate.ts
+  - src/models/operations/domaindelete.ts
+  - src/models/operations/domaingeneratedomain.ts
+  - src/models/operations/domainone.ts
+  - src/models/operations/domainupdate.ts
+  - src/models/operations/githubgetgithubbranches.ts
+  - src/models/operations/githubgetgithubrepositories.ts
+  - src/models/operations/githubone.ts
+  - src/models/operations/githubtestconnection.ts
+  - src/models/operations/githubupdate.ts
+  - src/models/operations/gitlabcreate.ts
+  - src/models/operations/gitlabgetgitlabbranches.ts
+  - src/models/operations/gitlabgetgitlabrepositories.ts
+  - src/models/operations/gitlabone.ts
+  - src/models/operations/gitlabtestconnection.ts
+  - src/models/operations/gitlabupdate.ts
+  - src/models/operations/gitproviderremove.ts
+  - src/models/operations/index.ts
+  - src/models/operations/mariadbchangestatus.ts
+  - src/models/operations/mariadbcreate.ts
+  - src/models/operations/mariadbdeploy.ts
+  - src/models/operations/mariadbone.ts
+  - src/models/operations/mariadbreload.ts
+  - src/models/operations/mariadbremove.ts
+  - src/models/operations/mariadbsaveenvironment.ts
+  - src/models/operations/mariadbsaveexternalport.ts
+  - src/models/operations/mariadbstart.ts
+  - src/models/operations/mariadbstop.ts
+  - src/models/operations/mariadbupdate.ts
+  - src/models/operations/mongochangestatus.ts
+  - src/models/operations/mongocreate.ts
+  - src/models/operations/mongodeploy.ts
+  - src/models/operations/mongoone.ts
+  - src/models/operations/mongoreload.ts
+  - src/models/operations/mongoremove.ts
+  - src/models/operations/mongosaveenvironment.ts
+  - src/models/operations/mongosaveexternalport.ts
+  - src/models/operations/mongostart.ts
+  - src/models/operations/mongostop.ts
+  - src/models/operations/mongoupdate.ts
+  - src/models/operations/mountscreate.ts
+  - src/models/operations/mountsone.ts
+  - src/models/operations/mountsremove.ts
+  - src/models/operations/mountsupdate.ts
+  - src/models/operations/mysqlchangestatus.ts
+  - src/models/operations/mysqlcreate.ts
+  - src/models/operations/mysqldeploy.ts
+  - src/models/operations/mysqlone.ts
+  - src/models/operations/mysqlreload.ts
+  - src/models/operations/mysqlremove.ts
+  - src/models/operations/mysqlsaveenvironment.ts
+  - src/models/operations/mysqlsaveexternalport.ts
+  - src/models/operations/mysqlstart.ts
+  - src/models/operations/mysqlstop.ts
+  - src/models/operations/mysqlupdate.ts
+  - src/models/operations/notificationcreatediscord.ts
+  - src/models/operations/notificationcreateemail.ts
+  - src/models/operations/notificationcreateslack.ts
+  - src/models/operations/notificationcreatetelegram.ts
+  - src/models/operations/notificationone.ts
+  - src/models/operations/notificationremove.ts
+  - src/models/operations/notificationtestdiscordconnection.ts
+  - src/models/operations/notificationtestemailconnection.ts
+  - src/models/operations/notificationtestslackconnection.ts
+  - src/models/operations/notificationtesttelegramconnection.ts
+  - src/models/operations/notificationupdatediscord.ts
+  - src/models/operations/notificationupdateemail.ts
+  - src/models/operations/notificationupdateslack.ts
+  - src/models/operations/notificationupdatetelegram.ts
+  - src/models/operations/portcreate.ts
+  - src/models/operations/portdelete.ts
+  - src/models/operations/portone.ts
+  - src/models/operations/portupdate.ts
+  - src/models/operations/postgreschangestatus.ts
+  - src/models/operations/postgrescreate.ts
+  - src/models/operations/postgresdeploy.ts
+  - src/models/operations/postgresone.ts
+  - src/models/operations/postgresreload.ts
+  - src/models/operations/postgresremove.ts
+  - src/models/operations/postgressaveenvironment.ts
+  - src/models/operations/postgressaveexternalport.ts
+  - src/models/operations/postgresstart.ts
+  - src/models/operations/postgresstop.ts
+  - src/models/operations/postgresupdate.ts
+  - src/models/operations/projectcreate.ts
+  - src/models/operations/projectone.ts
+  - src/models/operations/projectremove.ts
+  - src/models/operations/projectupdate.ts
+  - src/models/operations/redirectscreate.ts
+  - src/models/operations/redirectsdelete.ts
+  - src/models/operations/redirectsone.ts
+  - src/models/operations/redirectsupdate.ts
+  - src/models/operations/redischangestatus.ts
+  - src/models/operations/rediscreate.ts
+  - src/models/operations/redisdeploy.ts
+  - src/models/operations/redisone.ts
+  - src/models/operations/redisreload.ts
+  - src/models/operations/redisremove.ts
+  - src/models/operations/redissaveenvironment.ts
+  - src/models/operations/redissaveexternalport.ts
+  - src/models/operations/redisstart.ts
+  - src/models/operations/redisstop.ts
+  - src/models/operations/redisupdate.ts
+  - src/models/operations/registrycreate.ts
+  - src/models/operations/registryone.ts
+  - src/models/operations/registryremove.ts
+  - src/models/operations/registrytestregistry.ts
+  - src/models/operations/registryupdate.ts
+  - src/models/operations/securitycreate.ts
+  - src/models/operations/securitydelete.ts
+  - src/models/operations/securityone.ts
+  - src/models/operations/securityupdate.ts
+  - src/models/operations/servercreate.ts
+  - src/models/operations/serverone.ts
+  - src/models/operations/serverremove.ts
+  - src/models/operations/serversetup.ts
+  - src/models/operations/serverupdate.ts
+  - src/models/operations/settingsassigndomainserver.ts
+  - src/models/operations/settingscleanall.ts
+  - src/models/operations/settingscleandockerbuilder.ts
+  - src/models/operations/settingscleandockerprune.ts
+  - src/models/operations/settingscleanstoppedcontainers.ts
+  - src/models/operations/settingscleanunusedimages.ts
+  - src/models/operations/settingscleanunusedvolumes.ts
+  - src/models/operations/settingshavetraefikdashboardportenabled.ts
+  - src/models/operations/settingsreaddirectories.ts
+  - src/models/operations/settingsreadtraefikenv.ts
+  - src/models/operations/settingsreadtraefikfile.ts
+  - src/models/operations/settingsreloadtraefik.ts
+  - src/models/operations/settingssavesshprivatekey.ts
+  - src/models/operations/settingstoggledashboard.ts
+  - src/models/operations/settingstogglelogrotate.ts
+  - src/models/operations/settingstogglerequests.ts
+  - src/models/operations/settingsupdatedockercleanup.ts
+  - src/models/operations/settingsupdatemiddlewaretraefikconfig.ts
+  - src/models/operations/settingsupdatetraefikconfig.ts
+  - src/models/operations/settingsupdatetraefikfile.ts
+  - src/models/operations/settingsupdatewebservertraefikconfig.ts
+  - src/models/operations/settingswritetraefikenv.ts
+  - src/models/operations/sshkeycreate.ts
+  - src/models/operations/sshkeygenerate.ts
+  - src/models/operations/sshkeyone.ts
+  - src/models/operations/sshkeyremove.ts
+  - src/models/operations/sshkeyupdate.ts
+  - src/models/operations/stripecreatecheckoutsession.ts
+  - src/models/operations/userbyauthid.ts
+  - src/models/operations/userbyuserid.ts
+  - src/models/security.ts
+  - src/sdk/admin.ts
+  - src/sdk/application.ts
+  - src/sdk/auth.ts
+  - src/sdk/backup.ts
+  - src/sdk/bitbucket.ts
+  - src/sdk/certificates.ts
+  - src/sdk/cluster.ts
+  - src/sdk/compose.ts
+  - src/sdk/deployment.ts
+  - src/sdk/destination.ts
+  - src/sdk/docker.ts
+  - src/sdk/domain.ts
+  - src/sdk/github.ts
+  - src/sdk/gitlab.ts
+  - src/sdk/gitprovider.ts
+  - src/sdk/index.ts
+  - src/sdk/mariadb.ts
+  - src/sdk/mongo.ts
+  - src/sdk/mounts.ts
+  - src/sdk/mysql.ts
+  - src/sdk/notification.ts
+  - src/sdk/notifications.ts
+  - src/sdk/port.ts
+  - src/sdk/postgres.ts
+  - src/sdk/project.ts
+  - src/sdk/redirects.ts
+  - src/sdk/redis.ts
+  - src/sdk/registry.ts
+  - src/sdk/sdk.ts
+  - src/sdk/security.ts
+  - src/sdk/server.ts
+  - src/sdk/servers.ts
+  - src/sdk/settings.ts
+  - src/sdk/sshkey.ts
+  - src/sdk/sshkeys.ts
+  - src/sdk/stripe.ts
+  - src/sdk/user.ts
+  - src/types/async.ts
+  - src/types/blobs.ts
+  - src/types/constdatetime.ts
+  - src/types/enums.ts
+  - src/types/fp.ts
+  - src/types/index.ts
+  - src/types/operations.ts
+  - src/types/rfcdate.ts
+  - src/types/streams.ts
+  - tsconfig.json
+examples:
+  admin-one:
+    speakeasy-default-admin-one:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  admin-createUserInvitation:
+    speakeasy-default-admin-create-user-invitation:
+      requestBody:
+        application/json: {"email": "Melody5@gmail.com"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  admin-removeUser:
+    speakeasy-default-admin-remove-user:
+      requestBody:
+        application/json: {"authId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  admin-getUserByToken:
+    speakeasy-default-admin-get-user-by-token:
+      parameters:
+        query:
+          token: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  admin-assignPermissions:
+    speakeasy-default-admin-assign-permissions:
+      requestBody:
+        application/json: {"userId": "<id>", "canCreateProjects": false, "canCreateServices": false, "canDeleteProjects": false, "canDeleteServices": false, "accesedProjects": ["<value 1>"], "accesedServices": ["<value 1>"], "canAccessToTraefikFiles": false, "canAccessToDocker": true, "canAccessToAPI": false, "canAccessToSSHKeys": true, "canAccessToGitProviders": false}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  docker-getContainers:
+    speakeasy-default-docker-get-containers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  docker-restartContainer:
+    speakeasy-default-docker-restart-container:
+      requestBody:
+        application/json: {"containerId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  docker-getConfig:
+    speakeasy-default-docker-get-config:
+      parameters:
+        query:
+          containerId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  docker-getContainersByAppNameMatch:
+    speakeasy-default-docker-get-containers-by-app-name-match:
+      parameters:
+        query:
+          appName: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  docker-getContainersByAppLabel:
+    speakeasy-default-docker-get-containers-by-app-label:
+      parameters:
+        query:
+          appName: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-createAdmin:
+    speakeasy-default-auth-create-admin:
+      requestBody:
+        application/json: {"email": "Margarett.Keeling@hotmail.com", "password": "tugyh_JW5kT5IDW"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-createUser:
+    speakeasy-default-auth-create-user:
+      requestBody:
+        application/json: {"password": "MRqGkWGKqLanNcu", "id": "<id>", "token": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-login:
+    speakeasy-default-auth-login:
+      requestBody:
+        application/json: {"email": "Lloyd_Howe41@gmail.com", "password": "NBiV2yTHHqOmb69"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-get:
+    speakeasy-default-auth-get:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-logout:
+    speakeasy-default-auth-logout:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-update:
+    speakeasy-default-auth-update:
+      requestBody:
+        application/json: {"email": "Larissa_Aufderhar@hotmail.com", "password": "lGQCLAhWN3Y4KOT"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-generateToken:
+    speakeasy-default-auth-generate-token:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-one:
+    speakeasy-default-auth-one:
+      parameters:
+        query:
+          id: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-generate2FASecret:
+    speakeasy-default-auth-generate2-FA-secret:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-verify2FASetup:
+    speakeasy-default-auth-verify2-FA-setup:
+      requestBody:
+        application/json: {"pin": "8291", "secret": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-verifyLogin2FA:
+    speakeasy-default-auth-verify-login2-FA:
+      requestBody:
+        application/json: {"pin": "5896", "id": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-disable2FA:
+    speakeasy-default-auth-disable2-FA:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-sendResetPasswordEmail:
+    speakeasy-default-auth-send-reset-password-email:
+      requestBody:
+        application/json: {"email": "Rubye_Stanton63@hotmail.com"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-resetPassword:
+    speakeasy-default-auth-reset-password:
+      requestBody:
+        application/json: {"resetPasswordToken": "<value>", "password": "gZLRGbfCK0k8C4F"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  auth-confirmEmail:
+    speakeasy-default-auth-confirm-email:
+      requestBody:
+        application/json: {"confirmationToken": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  project-create:
+    speakeasy-default-project-create:
+      requestBody:
+        application/json: {"name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  project-one:
+    speakeasy-default-project-one:
+      parameters:
+        query:
+          projectId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  project-all:
+    speakeasy-default-project-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  project-remove:
+    speakeasy-default-project-remove:
+      requestBody:
+        application/json: {"projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  project-update:
+    speakeasy-default-project-update:
+      requestBody:
+        application/json: {"name": "<value>", "projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-create:
+    speakeasy-default-application-create:
+      requestBody:
+        application/json: {"name": "<value>", "projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-one:
+    speakeasy-default-application-one:
+      parameters:
+        query:
+          applicationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-reload:
+    speakeasy-default-application-reload:
+      requestBody:
+        application/json: {"appName": "<value>", "applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-delete:
+    speakeasy-default-application-delete:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-stop:
+    speakeasy-default-application-stop:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-start:
+    speakeasy-default-application-start:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-redeploy:
+    speakeasy-default-application-redeploy:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveEnvironment:
+    speakeasy-default-application-save-environment:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveBuildType:
+    speakeasy-default-application-save-build-type:
+      requestBody:
+        application/json: {"applicationId": "<id>", "buildType": "dockerfile", "dockerContextPath": "<value>", "dockerBuildStage": null}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveGithubProvider:
+    speakeasy-default-application-save-github-provider:
+      requestBody:
+        application/json: {"applicationId": "<id>", "owner": null, "githubId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveGitlabProvider:
+    speakeasy-default-application-save-gitlab-provider:
+      requestBody:
+        application/json: {"applicationId": "<id>", "gitlabBranch": "<value>", "gitlabBuildPath": "<value>", "gitlabOwner": "<value>", "gitlabRepository": "<value>", "gitlabId": "<id>", "gitlabProjectId": 950.43, "gitlabPathNamespace": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveBitbucketProvider:
+    speakeasy-default-application-save-bitbucket-provider:
+      requestBody:
+        application/json: {"bitbucketBranch": "<value>", "bitbucketBuildPath": "<value>", "bitbucketOwner": "<value>", "bitbucketRepository": "<value>", "bitbucketId": "<id>", "applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveDockerProvider:
+    speakeasy-default-application-save-docker-provider:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-saveGitProdiver:
+    speakeasy-default-application-save-git-prodiver:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-markRunning:
+    speakeasy-default-application-mark-running:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-update:
+    speakeasy-default-application-update:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-refreshToken:
+    speakeasy-default-application-refresh-token:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-deploy:
+    speakeasy-default-application-deploy:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-cleanQueues:
+    speakeasy-default-application-clean-queues:
+      requestBody:
+        application/json: {"applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-readTraefikConfig:
+    speakeasy-default-application-read-traefik-config:
+      parameters:
+        query:
+          applicationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-updateTraefikConfig:
+    speakeasy-default-application-update-traefik-config:
+      requestBody:
+        application/json: {"applicationId": "<id>", "traefikConfig": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  application-readAppMonitoring:
+    speakeasy-default-application-read-app-monitoring:
+      parameters:
+        query:
+          appName: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-create:
+    speakeasy-default-mysql-create:
+      requestBody:
+        application/json: {"name": "<value>", "appName": "<value>", "dockerImage": "mysql:8", "projectId": "<id>", "databaseName": "<value>", "databaseUser": "<value>", "databasePassword": "<value>", "databaseRootPassword": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-one:
+    speakeasy-default-mysql-one:
+      parameters:
+        query:
+          mysqlId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-start:
+    speakeasy-default-mysql-start:
+      requestBody:
+        application/json: {"mysqlId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-stop:
+    speakeasy-default-mysql-stop:
+      requestBody:
+        application/json: {"mysqlId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-saveExternalPort:
+    speakeasy-default-mysql-save-external-port:
+      requestBody:
+        application/json: {"mysqlId": "<id>", "externalPort": 6359.48}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-deploy:
+    speakeasy-default-mysql-deploy:
+      requestBody:
+        application/json: {"mysqlId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-changeStatus:
+    speakeasy-default-mysql-change-status:
+      requestBody:
+        application/json: {"mysqlId": "<id>", "applicationStatus": "error"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-reload:
+    speakeasy-default-mysql-reload:
+      requestBody:
+        application/json: {"mysqlId": "<id>", "appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-remove:
+    speakeasy-default-mysql-remove:
+      requestBody:
+        application/json: {"mysqlId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-saveEnvironment:
+    speakeasy-default-mysql-save-environment:
+      requestBody:
+        application/json: {"mysqlId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mysql-update:
+    speakeasy-default-mysql-update:
+      requestBody:
+        application/json: {"mysqlId": "<id>", "dockerImage": "mysql:8"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-create:
+    speakeasy-default-postgres-create:
+      requestBody:
+        application/json: {"name": "<value>", "appName": "<value>", "databaseName": "<value>", "databaseUser": "<value>", "databasePassword": "<value>", "dockerImage": "postgres:15", "projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-one:
+    speakeasy-default-postgres-one:
+      parameters:
+        query:
+          postgresId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-start:
+    speakeasy-default-postgres-start:
+      requestBody:
+        application/json: {"postgresId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-stop:
+    speakeasy-default-postgres-stop:
+      requestBody:
+        application/json: {"postgresId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-saveExternalPort:
+    speakeasy-default-postgres-save-external-port:
+      requestBody:
+        application/json: {"postgresId": "<id>", "externalPort": 3135.23}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-deploy:
+    speakeasy-default-postgres-deploy:
+      requestBody:
+        application/json: {"postgresId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-changeStatus:
+    speakeasy-default-postgres-change-status:
+      requestBody:
+        application/json: {"postgresId": "<id>", "applicationStatus": "idle"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-remove:
+    speakeasy-default-postgres-remove:
+      requestBody:
+        application/json: {"postgresId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-saveEnvironment:
+    speakeasy-default-postgres-save-environment:
+      requestBody:
+        application/json: {"postgresId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-reload:
+    speakeasy-default-postgres-reload:
+      requestBody:
+        application/json: {"postgresId": "<id>", "appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  postgres-update:
+    speakeasy-default-postgres-update:
+      requestBody:
+        application/json: {"postgresId": "<id>", "dockerImage": "postgres:15"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-create:
+    speakeasy-default-redis-create:
+      requestBody:
+        application/json: {"name": "<value>", "appName": "<value>", "databasePassword": "<value>", "dockerImage": "redis:8", "projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-one:
+    speakeasy-default-redis-one:
+      parameters:
+        query:
+          redisId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-start:
+    speakeasy-default-redis-start:
+      requestBody:
+        application/json: {"redisId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-reload:
+    speakeasy-default-redis-reload:
+      requestBody:
+        application/json: {"redisId": "<id>", "appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-stop:
+    speakeasy-default-redis-stop:
+      requestBody:
+        application/json: {"redisId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-saveExternalPort:
+    speakeasy-default-redis-save-external-port:
+      requestBody:
+        application/json: {"redisId": "<id>", "externalPort": 8375.12}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-deploy:
+    speakeasy-default-redis-deploy:
+      requestBody:
+        application/json: {"redisId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-changeStatus:
+    speakeasy-default-redis-change-status:
+      requestBody:
+        application/json: {"redisId": "<id>", "applicationStatus": "error"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-remove:
+    speakeasy-default-redis-remove:
+      requestBody:
+        application/json: {"redisId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-saveEnvironment:
+    speakeasy-default-redis-save-environment:
+      requestBody:
+        application/json: {"redisId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redis-update:
+    speakeasy-default-redis-update:
+      requestBody:
+        application/json: {"redisId": "<id>", "dockerImage": "redis:8"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-create:
+    speakeasy-default-mongo-create:
+      requestBody:
+        application/json: {"name": "<value>", "appName": "<value>", "dockerImage": "mongo:15", "projectId": "<id>", "databaseUser": "<value>", "databasePassword": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-one:
+    speakeasy-default-mongo-one:
+      parameters:
+        query:
+          mongoId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-start:
+    speakeasy-default-mongo-start:
+      requestBody:
+        application/json: {"mongoId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-stop:
+    speakeasy-default-mongo-stop:
+      requestBody:
+        application/json: {"mongoId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-saveExternalPort:
+    speakeasy-default-mongo-save-external-port:
+      requestBody:
+        application/json: {"mongoId": "<id>", "externalPort": null}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-deploy:
+    speakeasy-default-mongo-deploy:
+      requestBody:
+        application/json: {"mongoId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-changeStatus:
+    speakeasy-default-mongo-change-status:
+      requestBody:
+        application/json: {"mongoId": "<id>", "applicationStatus": "error"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-reload:
+    speakeasy-default-mongo-reload:
+      requestBody:
+        application/json: {"mongoId": "<id>", "appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-remove:
+    speakeasy-default-mongo-remove:
+      requestBody:
+        application/json: {"mongoId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-saveEnvironment:
+    speakeasy-default-mongo-save-environment:
+      requestBody:
+        application/json: {"mongoId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mongo-update:
+    speakeasy-default-mongo-update:
+      requestBody:
+        application/json: {"mongoId": "<id>", "dockerImage": "mongo:15"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-create:
+    speakeasy-default-mariadb-create:
+      requestBody:
+        application/json: {"name": "<value>", "appName": "<value>", "dockerImage": "mariadb:6", "databaseRootPassword": "<value>", "projectId": "<id>", "databaseName": "<value>", "databaseUser": "<value>", "databasePassword": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-one:
+    speakeasy-default-mariadb-one:
+      parameters:
+        query:
+          mariadbId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-start:
+    speakeasy-default-mariadb-start:
+      requestBody:
+        application/json: {"mariadbId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-stop:
+    speakeasy-default-mariadb-stop:
+      requestBody:
+        application/json: {"mariadbId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-saveExternalPort:
+    speakeasy-default-mariadb-save-external-port:
+      requestBody:
+        application/json: {"mariadbId": "<id>", "externalPort": 1693.93}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-deploy:
+    speakeasy-default-mariadb-deploy:
+      requestBody:
+        application/json: {"mariadbId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-changeStatus:
+    speakeasy-default-mariadb-change-status:
+      requestBody:
+        application/json: {"mariadbId": "<id>", "applicationStatus": "idle"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-remove:
+    speakeasy-default-mariadb-remove:
+      requestBody:
+        application/json: {"mariadbId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-saveEnvironment:
+    speakeasy-default-mariadb-save-environment:
+      requestBody:
+        application/json: {"mariadbId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-reload:
+    speakeasy-default-mariadb-reload:
+      requestBody:
+        application/json: {"mariadbId": "<id>", "appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mariadb-update:
+    speakeasy-default-mariadb-update:
+      requestBody:
+        application/json: {"mariadbId": "<id>", "dockerImage": "mariadb:6"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-create:
+    speakeasy-default-compose-create:
+      requestBody:
+        application/json: {"name": "<value>", "projectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-one:
+    speakeasy-default-compose-one:
+      parameters:
+        query:
+          composeId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-update:
+    speakeasy-default-compose-update:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-delete:
+    speakeasy-default-compose-delete:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-cleanQueues:
+    speakeasy-default-compose-clean-queues:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-fetchSourceType:
+    speakeasy-default-compose-fetch-source-type:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-randomizeCompose:
+    speakeasy-default-compose-randomize-compose:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-getConvertedCompose:
+    speakeasy-default-compose-get-converted-compose:
+      parameters:
+        query:
+          composeId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-deploy:
+    speakeasy-default-compose-deploy:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-redeploy:
+    speakeasy-default-compose-redeploy:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-stop:
+    speakeasy-default-compose-stop:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-getDefaultCommand:
+    speakeasy-default-compose-get-default-command:
+      parameters:
+        query:
+          composeId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-refreshToken:
+    speakeasy-default-compose-refresh-token:
+      requestBody:
+        application/json: {"composeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-deployTemplate:
+    speakeasy-default-compose-deploy-template:
+      requestBody:
+        application/json: {"projectId": "<id>", "id": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-templates:
+    speakeasy-default-compose-templates:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  compose-getTags:
+    speakeasy-default-compose-get-tags:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  user-all:
+    speakeasy-default-user-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  user-byAuthId:
+    speakeasy-default-user-by-auth-id:
+      parameters:
+        query:
+          authId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  user-byUserId:
+    speakeasy-default-user-by-user-id:
+      parameters:
+        query:
+          userId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-create:
+    speakeasy-default-domain-create:
+      requestBody:
+        application/json: {"host": "musty-merit.net"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-byApplicationId:
+    speakeasy-default-domain-by-application-id:
+      parameters:
+        query:
+          applicationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-byComposeId:
+    speakeasy-default-domain-by-compose-id:
+      parameters:
+        query:
+          composeId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-generateDomain:
+    speakeasy-default-domain-generate-domain:
+      requestBody:
+        application/json: {"appName": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-update:
+    speakeasy-default-domain-update:
+      requestBody:
+        application/json: {"host": "unruly-toothbrush.info", "domainId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-one:
+    speakeasy-default-domain-one:
+      parameters:
+        query:
+          domainId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  domain-delete:
+    speakeasy-default-domain-delete:
+      requestBody:
+        application/json: {"domainId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-create:
+    speakeasy-default-destination-create:
+      requestBody:
+        application/json: {"name": "<value>", "accessKey": "<value>", "bucket": "<value>", "region": "<value>", "endpoint": "<value>", "secretAccessKey": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-testConnection:
+    speakeasy-default-destination-test-connection:
+      requestBody:
+        application/json: {"name": "<value>", "accessKey": "<value>", "bucket": "<value>", "region": "<value>", "endpoint": "<value>", "secretAccessKey": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-one:
+    speakeasy-default-destination-one:
+      parameters:
+        query:
+          destinationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-all:
+    speakeasy-default-destination-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-remove:
+    speakeasy-default-destination-remove:
+      requestBody:
+        application/json: {"destinationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  destination-update:
+    speakeasy-default-destination-update:
+      requestBody:
+        application/json: {"name": "<value>", "accessKey": "<value>", "bucket": "<value>", "region": "<value>", "endpoint": "<value>", "secretAccessKey": "<value>", "destinationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-create:
+    speakeasy-default-backup-create:
+      requestBody:
+        application/json: {"schedule": "<value>", "prefix": "<value>", "destinationId": "<id>", "database": "<value>", "databaseType": "mysql"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-one:
+    speakeasy-default-backup-one:
+      parameters:
+        query:
+          backupId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-update:
+    speakeasy-default-backup-update:
+      requestBody:
+        application/json: {"schedule": "<value>", "prefix": "<value>", "backupId": "<id>", "destinationId": "<id>", "database": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-remove:
+    speakeasy-default-backup-remove:
+      requestBody:
+        application/json: {"backupId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-manualBackupPostgres:
+    speakeasy-default-backup-manual-backup-postgres:
+      requestBody:
+        application/json: {"backupId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-manualBackupMySql:
+    speakeasy-default-backup-manual-backup-my-sql:
+      requestBody:
+        application/json: {"backupId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-manualBackupMariadb:
+    speakeasy-default-backup-manual-backup-mariadb:
+      requestBody:
+        application/json: {"backupId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  backup-manualBackupMongo:
+    speakeasy-default-backup-manual-backup-mongo:
+      requestBody:
+        application/json: {"backupId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  deployment-all:
+    speakeasy-default-deployment-all:
+      parameters:
+        query:
+          applicationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  deployment-allByCompose:
+    speakeasy-default-deployment-all-by-compose:
+      parameters:
+        query:
+          composeId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  deployment-allByServer:
+    speakeasy-default-deployment-all-by-server:
+      parameters:
+        query:
+          serverId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mounts-create:
+    speakeasy-default-mounts-create:
+      requestBody:
+        application/json: {"type": "file", "mountPath": "<value>", "serviceType": "application", "serviceId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mounts-remove:
+    speakeasy-default-mounts-remove:
+      requestBody:
+        application/json: {"mountId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mounts-one:
+    speakeasy-default-mounts-one:
+      parameters:
+        query:
+          mountId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  mounts-update:
+    speakeasy-default-mounts-update:
+      requestBody:
+        application/json: {"mountId": "<id>", "serviceType": "application"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  certificates-create:
+    speakeasy-default-certificates-create:
+      requestBody:
+        application/json: {"name": "<value>", "certificateData": "<value>", "privateKey": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  certificates-one:
+    speakeasy-default-certificates-one:
+      parameters:
+        query:
+          certificateId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  certificates-remove:
+    speakeasy-default-certificates-remove:
+      requestBody:
+        application/json: {"certificateId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  certificates-all:
+    speakeasy-default-certificates-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-reloadServer:
+    speakeasy-default-settings-reload-server:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-reloadTraefik:
+    speakeasy-default-settings-reload-traefik:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-toggleDashboard:
+    speakeasy-default-settings-toggle-dashboard:
+      requestBody:
+        application/json: {}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanUnusedImages:
+    speakeasy-default-settings-clean-unused-images:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanUnusedVolumes:
+    speakeasy-default-settings-clean-unused-volumes:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanStoppedContainers:
+    speakeasy-default-settings-clean-stopped-containers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanDockerBuilder:
+    speakeasy-default-settings-clean-docker-builder:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanDockerPrune:
+    speakeasy-default-settings-clean-docker-prune:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanAll:
+    speakeasy-default-settings-clean-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanMonitoring:
+    speakeasy-default-settings-clean-monitoring:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-saveSSHPrivateKey:
+    speakeasy-default-settings-save-SSH-private-key:
+      requestBody:
+        application/json: {}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-assignDomainServer:
+    speakeasy-default-settings-assign-domain-server:
+      requestBody:
+        application/json: {"host": "pure-alb.biz", "certificateType": "none"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-cleanSSHPrivateKey:
+    speakeasy-default-settings-clean-SSH-private-key:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateDockerCleanup:
+    speakeasy-default-settings-update-docker-cleanup:
+      requestBody:
+        application/json: {"enableDockerCleanup": true}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readTraefikConfig:
+    speakeasy-default-settings-read-traefik-config:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateTraefikConfig:
+    speakeasy-default-settings-update-traefik-config:
+      requestBody:
+        application/json: {"traefikConfig": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readWebServerTraefikConfig:
+    speakeasy-default-settings-read-web-server-traefik-config:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateWebServerTraefikConfig:
+    speakeasy-default-settings-update-web-server-traefik-config:
+      requestBody:
+        application/json: {"traefikConfig": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readMiddlewareTraefikConfig:
+    speakeasy-default-settings-read-middleware-traefik-config:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateMiddlewareTraefikConfig:
+    speakeasy-default-settings-update-middleware-traefik-config:
+      requestBody:
+        application/json: {"traefikConfig": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-checkAndUpdateImage:
+    speakeasy-default-settings-check-and-update-image:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateServer:
+    speakeasy-default-settings-update-server:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-getDokployVersion:
+    speakeasy-default-settings-get-dokploy-version:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readDirectories:
+    speakeasy-default-settings-read-directories:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-updateTraefikFile:
+    speakeasy-default-settings-update-traefik-file:
+      requestBody:
+        application/json: {"path": "/var/tmp", "traefikConfig": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readTraefikFile:
+    speakeasy-default-settings-read-traefik-file:
+      parameters:
+        query:
+          path: "/mnt"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-getIp:
+    speakeasy-default-settings-get-ip:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-getOpenApiDocument:
+    speakeasy-default-settings-get-open-api-document:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readTraefikEnv:
+    speakeasy-default-settings-read-traefik-env:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-writeTraefikEnv:
+    speakeasy-default-settings-write-traefik-env:
+      requestBody:
+        application/json: {"env": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-haveTraefikDashboardPortEnabled:
+    speakeasy-default-settings-have-traefik-dashboard-port-enabled:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-readStats:
+    speakeasy-default-settings-read-stats:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-getLogRotateStatus:
+    speakeasy-default-settings-get-log-rotate-status:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-toggleLogRotate:
+    speakeasy-default-settings-toggle-log-rotate:
+      requestBody:
+        application/json: {"enable": true}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-haveActivateRequests:
+    speakeasy-default-settings-have-activate-requests:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-toggleRequests:
+    speakeasy-default-settings-toggle-requests:
+      requestBody:
+        application/json: {"enable": true}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-isCloud:
+    speakeasy-default-settings-is-cloud:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  settings-health:
+    speakeasy-default-settings-health:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  security-create:
+    speakeasy-default-security-create:
+      requestBody:
+        application/json: {"applicationId": "<id>", "username": "Jaida.Zulauf", "password": "K9baGIdLMCnW0iF"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  security-one:
+    speakeasy-default-security-one:
+      parameters:
+        query:
+          securityId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  security-delete:
+    speakeasy-default-security-delete:
+      requestBody:
+        application/json: {"securityId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  security-update:
+    speakeasy-default-security-update:
+      requestBody:
+        application/json: {"securityId": "<id>", "username": "Easter19", "password": "lzeP1olfVZ7Co23"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redirects-create:
+    speakeasy-default-redirects-create:
+      requestBody:
+        application/json: {"regex": "<value>", "replacement": "<value>", "permanent": false, "applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redirects-one:
+    speakeasy-default-redirects-one:
+      parameters:
+        query:
+          redirectId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redirects-delete:
+    speakeasy-default-redirects-delete:
+      requestBody:
+        application/json: {"redirectId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  redirects-update:
+    speakeasy-default-redirects-update:
+      requestBody:
+        application/json: {"redirectId": "<id>", "regex": "<value>", "replacement": "<value>", "permanent": false}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  port-create:
+    speakeasy-default-port-create:
+      requestBody:
+        application/json: {"publishedPort": 9167.77, "targetPort": 2161.7, "protocol": "tcp", "applicationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  port-one:
+    speakeasy-default-port-one:
+      parameters:
+        query:
+          portId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  port-delete:
+    speakeasy-default-port-delete:
+      requestBody:
+        application/json: {"portId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  port-update:
+    speakeasy-default-port-update:
+      requestBody:
+        application/json: {"portId": "<id>", "publishedPort": 7240.07, "targetPort": 9496, "protocol": "tcp"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-create:
+    speakeasy-default-registry-create:
+      requestBody:
+        application/json: {"registryName": "<value>", "username": "Edward97", "password": "Dgmo4uBNDUDA9K5", "registryUrl": "https://cute-declaration.name", "registryType": "cloud", "imagePrefix": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-remove:
+    speakeasy-default-registry-remove:
+      requestBody:
+        application/json: {"registryId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-update:
+    speakeasy-default-registry-update:
+      requestBody:
+        application/json: {"registryId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-all:
+    speakeasy-default-registry-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-one:
+    speakeasy-default-registry-one:
+      parameters:
+        query:
+          registryId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  registry-testRegistry:
+    speakeasy-default-registry-test-registry:
+      requestBody:
+        application/json: {"registryName": "<value>", "username": "Amani_Kohler", "password": "HbHSp2hcDiXugz1", "registryUrl": "https://biodegradable-priesthood.info/", "registryType": "cloud"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  cluster-getNodes:
+    speakeasy-default-cluster-get-nodes:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  cluster-removeWorker:
+    speakeasy-default-cluster-remove-worker:
+      requestBody:
+        application/json: {"nodeId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  cluster-addWorker:
+    speakeasy-default-cluster-add-worker:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  cluster-addManager:
+    speakeasy-default-cluster-add-manager:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-createSlack:
+    speakeasy-default-notification-create-slack:
+      requestBody:
+        application/json: {"appBuildError": true, "databaseBackup": true, "dokployRestart": false, "name": "<value>", "appDeploy": false, "dockerCleanup": false, "webhookUrl": "https://familiar-custody.name", "channel": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-updateSlack:
+    speakeasy-default-notification-update-slack:
+      requestBody:
+        application/json: {"notificationId": "<id>", "slackId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-testSlackConnection:
+    speakeasy-default-notification-test-slack-connection:
+      requestBody:
+        application/json: {"webhookUrl": "https://pointed-institute.com", "channel": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-createTelegram:
+    speakeasy-default-notification-create-telegram:
+      requestBody:
+        application/json: {"appBuildError": false, "databaseBackup": true, "dokployRestart": false, "name": "<value>", "appDeploy": true, "dockerCleanup": true, "botToken": "<value>", "chatId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-updateTelegram:
+    speakeasy-default-notification-update-telegram:
+      requestBody:
+        application/json: {"notificationId": "<id>", "telegramId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-testTelegramConnection:
+    speakeasy-default-notification-test-telegram-connection:
+      requestBody:
+        application/json: {"botToken": "<value>", "chatId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-createDiscord:
+    speakeasy-default-notification-create-discord:
+      requestBody:
+        application/json: {"appBuildError": false, "databaseBackup": true, "dokployRestart": false, "name": "<value>", "appDeploy": false, "dockerCleanup": true, "webhookUrl": "https://present-sport.net/"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-updateDiscord:
+    speakeasy-default-notification-update-discord:
+      requestBody:
+        application/json: {"notificationId": "<id>", "discordId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-testDiscordConnection:
+    speakeasy-default-notification-test-discord-connection:
+      requestBody:
+        application/json: {"webhookUrl": "https://radiant-fireplace.net"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-createEmail:
+    speakeasy-default-notification-create-email:
+      requestBody:
+        application/json: {"appBuildError": false, "databaseBackup": false, "dokployRestart": true, "name": "<value>", "appDeploy": false, "dockerCleanup": false, "smtpServer": "<value>", "smtpPort": 8149.3, "username": "Krystal95", "password": "LGAnX2vuZKQTVc9", "fromAddress": "<value>", "toAddresses": []}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-updateEmail:
+    speakeasy-default-notification-update-email:
+      requestBody:
+        application/json: {"notificationId": "<id>", "emailId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-testEmailConnection:
+    speakeasy-default-notification-test-email-connection:
+      requestBody:
+        application/json: {"smtpServer": "<value>", "smtpPort": 4799.46, "username": "Rollin96", "password": "xHtlQtIjbn2x0yV", "toAddresses": ["<value 1>", "<value 2>"], "fromAddress": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-remove:
+    speakeasy-default-notification-remove:
+      requestBody:
+        application/json: {"notificationId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-one:
+    speakeasy-default-notification-one:
+      parameters:
+        query:
+          notificationId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  notification-all:
+    speakeasy-default-notification-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-create:
+    speakeasy-default-ssh-key-create:
+      requestBody:
+        application/json: {"name": "<value>", "privateKey": "<value>", "publicKey": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-remove:
+    speakeasy-default-ssh-key-remove:
+      requestBody:
+        application/json: {"sshKeyId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-one:
+    speakeasy-default-ssh-key-one:
+      parameters:
+        query:
+          sshKeyId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-all:
+    speakeasy-default-ssh-key-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-generate:
+    speakeasy-default-ssh-key-generate:
+      requestBody:
+        application/json: {}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  sshKey-update:
+    speakeasy-default-ssh-key-update:
+      requestBody:
+        application/json: {"sshKeyId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitProvider-getAll:
+    speakeasy-default-git-provider-get-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitProvider-remove:
+    speakeasy-default-git-provider-remove:
+      requestBody:
+        application/json: {"gitProviderId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-create:
+    speakeasy-default-bitbucket-create:
+      requestBody:
+        application/json: {"authId": "<id>", "name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-one:
+    speakeasy-default-bitbucket-one:
+      parameters:
+        query:
+          bitbucketId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-bitbucketProviders:
+    speakeasy-default-bitbucket-bitbucket-providers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-getBitbucketRepositories:
+    speakeasy-default-bitbucket-get-bitbucket-repositories:
+      parameters:
+        query:
+          bitbucketId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-getBitbucketBranches:
+    speakeasy-default-bitbucket-get-bitbucket-branches:
+      parameters:
+        query:
+          owner: "<value>"
+          repo: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-testConnection:
+    speakeasy-default-bitbucket-test-connection:
+      requestBody:
+        application/json: {"bitbucketId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  bitbucket-update:
+    speakeasy-default-bitbucket-update:
+      requestBody:
+        application/json: {"bitbucketId": "<id>", "gitProviderId": "<id>", "name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-create:
+    speakeasy-default-gitlab-create:
+      requestBody:
+        application/json: {"authId": "<id>", "name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-one:
+    speakeasy-default-gitlab-one:
+      parameters:
+        query:
+          gitlabId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-gitlabProviders:
+    speakeasy-default-gitlab-gitlab-providers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-getGitlabRepositories:
+    speakeasy-default-gitlab-get-gitlab-repositories:
+      parameters:
+        query:
+          gitlabId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-getGitlabBranches:
+    speakeasy-default-gitlab-get-gitlab-branches:
+      parameters:
+        query:
+          owner: "<value>"
+          repo: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-testConnection:
+    speakeasy-default-gitlab-test-connection:
+      requestBody:
+        application/json: {}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  gitlab-update:
+    speakeasy-default-gitlab-update:
+      requestBody:
+        application/json: {"gitlabId": "<id>", "gitProviderId": "<id>", "name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-one:
+    speakeasy-default-github-one:
+      parameters:
+        query:
+          githubId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-getGithubRepositories:
+    speakeasy-default-github-get-github-repositories:
+      parameters:
+        query:
+          githubId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-getGithubBranches:
+    speakeasy-default-github-get-github-branches:
+      parameters:
+        query:
+          repo: "<value>"
+          owner: "<value>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-githubProviders:
+    speakeasy-default-github-github-providers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-testConnection:
+    speakeasy-default-github-test-connection:
+      requestBody:
+        application/json: {"githubId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  github-update:
+    speakeasy-default-github-update:
+      requestBody:
+        application/json: {"githubId": "<id>", "gitProviderId": "<id>", "name": "<value>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-create:
+    speakeasy-default-server-create:
+      requestBody:
+        application/json: {"name": "<value>", "ipAddress": "8.12.175.213", "port": 9154.55, "username": "Asia_Parker82", "sshKeyId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-one:
+    speakeasy-default-server-one:
+      parameters:
+        query:
+          serverId: "<id>"
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-all:
+    speakeasy-default-server-all:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-withSSHKey:
+    speakeasy-default-server-with-SSH-key:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-setup:
+    speakeasy-default-server-setup:
+      requestBody:
+        application/json: {"serverId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-remove:
+    speakeasy-default-server-remove:
+      requestBody:
+        application/json: {"serverId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  server-update:
+    speakeasy-default-server-update:
+      requestBody:
+        application/json: {"name": "<value>", "serverId": "<id>", "ipAddress": "945d:4a06:ae40:dab4:6ecb:dbfc:8b3d:df1d", "port": 4322.18, "username": "Adelia.Casper", "sshKeyId": "<id>"}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  stripe-getProducts:
+    speakeasy-default-stripe-get-products:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  stripe-createCheckoutSession:
+    speakeasy-default-stripe-create-checkout-session:
+      requestBody:
+        application/json: {"productId": "<id>", "serverQuantity": 4592.6, "isAnnual": false}
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  stripe-createCustomerPortalSession:
+    speakeasy-default-stripe-create-customer-portal-session:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+  stripe-canCreateMoreServers:
+    speakeasy-default-stripe-can-create-more-servers:
+      responses:
+        default:
+          application/json: {"message": "<value>", "code": "<value>"}
+examplesVersion: 1.0.2
