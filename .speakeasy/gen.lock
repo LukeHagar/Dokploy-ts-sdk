@@ -5,8 +5,10 @@ management:
   docVersion: 1.0.0
   speakeasyVersion: 1.630.0
   generationVersion: 2.716.10
-  releaseVersion: 0.1.2
-  configChecksum: 42a354977b7c236d1a223d78ecdcc936
+  releaseVersion: 0.1.3
+  configChecksum: 7cba5306081d21cc677a5d1482b1883d
+  repoURL: https://github.com/LukeHagar/Dokploy-ts-sdk.git
+  installationURL: https://github.com/LukeHagar/Dokploy-ts-sdk
 features:
   typescript:
     additionalDependencies: 0.1.0
@@ -2792,3 +2794,549 @@ examples:
         default:
           application/json: {"message": "<value>", "code": "<value>"}
 examplesVersion: 1.0.2
+releaseNotes: |
+  ## Typescript SDK Changes Detected:
+  * `dokploy.admin.getOne()`: **Added**
+  * `dokploy.admin.createUserInvitation()`: **Added**
+  * `dokploy.admin.removeUser()`: **Added**
+  * `dokploy.admin.getUserByToken()`: **Added**
+  * `dokploy.admin.assignPermissions()`: **Added**
+  * `dokploy.docker.getContainers()`: **Added**
+  * `dokploy.docker.restartContainer()`: **Added**
+  * `dokploy.docker.getConfig()`: **Added**
+  * `dokploy.docker.getContainersByAppNameMatch()`: **Added**
+  * `dokploy.docker.getContainersByAppLabel()`: **Added**
+  * `dokploy.auth.createAdmin()`: **Added**
+  * `dokploy.auth.createUser()`: **Added**
+  * `dokploy.auth.login()`: **Added**
+  * `dokploy.auth.getOne()`: **Added**
+  * `dokploy.auth.logout()`: **Added**
+  * `dokploy.auth.update()`: **Added**
+  * `dokploy.auth.generateToken()`: **Added**
+  * `dokploy.auth.get()`: **Added**
+  * `dokploy.auth.generate2FaSecret()`: **Added**
+  * `dokploy.auth.verify2faSetup()`: **Added**
+  * `dokploy.auth.verifyLogin2Fa()`: **Added**
+  * `dokploy.auth.disable2Fa()`: **Added**
+  * `dokploy.auth.sendResetPasswordEmail()`: **Added**
+  * `dokploy.auth.resetPassword()`: **Added**
+  * `dokploy.auth.confirmEmail()`: **Added**
+  * `dokploy.project.create()`: **Added**
+  * `dokploy.project.get()`: **Added**
+  * `dokploy.project.all()`: **Added**
+  * `dokploy.project.remove()`: **Added**
+  * `dokploy.project.update()`: **Added**
+  * `dokploy.application.create()`: **Added**
+  * `dokploy.application.getOne()`: **Added**
+  * `dokploy.application.reload()`: **Added**
+  * `dokploy.application.delete()`: **Added**
+  * `dokploy.application.stop()`: **Added**
+  * `dokploy.application.start()`: **Added**
+  * `dokploy.application.redeploy()`: **Added**
+  * `dokploy.application.saveEnvironment()`: **Added**
+  * `dokploy.application.saveBuildType()`: **Added**
+  * `dokploy.application.saveGithubProvider()`: **Added**
+  * `dokploy.application.saveGitlabProvider()`: **Added**
+  * `dokploy.application.saveBitbucketProvider()`: **Added**
+  * `dokploy.application.saveDockerProvider()`: **Added**
+  * `dokploy.application.saveGitProdiver()`: **Added**
+  * `dokploy.application.markRunning()`: **Added**
+  * `dokploy.application.update()`: **Added**
+  * `dokploy.application.refreshToken()`: **Added**
+  * `dokploy.application.deploy()`: **Added**
+  * `dokploy.application.cleanQueues()`: **Added**
+  * `dokploy.application.readTraefikConfig()`: **Added**
+  * `dokploy.application.updateTraefikConfig()`: **Added**
+  * `dokploy.application.readAppMonitoring()`: **Added**
+  * `dokploy.mysql.create()`: **Added**
+  * `dokploy.mysql.get()`: **Added**
+  * `dokploy.mysql.start()`: **Added**
+  * `dokploy.mysql.stop()`: **Added**
+  * `dokploy.mysql.saveExternalPort()`: **Added**
+  * `dokploy.mysql.deploy()`: **Added**
+  * `dokploy.mysql.changeStatus()`: **Added**
+  * `dokploy.mysql.reload()`: **Added**
+  * `dokploy.mysql.remove()`: **Added**
+  * `dokploy.mysql.saveEnvironment()`: **Added**
+  * `dokploy.mysql.update()`: **Added**
+  * `dokploy.postgres.create()`: **Added**
+  * `dokploy.postgres.get()`: **Added**
+  * `dokploy.postgres.start()`: **Added**
+  * `dokploy.postgres.stop()`: **Added**
+  * `dokploy.postgres.saveExternalPort()`: **Added**
+  * `dokploy.postgres.deploy()`: **Added**
+  * `dokploy.postgres.changeStatus()`: **Added**
+  * `dokploy.postgres.remove()`: **Added**
+  * `dokploy.postgres.saveEnvironment()`: **Added**
+  * `dokploy.postgres.reload()`: **Added**
+  * `dokploy.postgres.update()`: **Added**
+  * `dokploy.redis.create()`: **Added**
+  * `dokploy.redis.get()`: **Added**
+  * `dokploy.redis.start()`: **Added**
+  * `dokploy.redis.reload()`: **Added**
+  * `dokploy.redis.stop()`: **Added**
+  * `dokploy.redis.saveExternalPort()`: **Added**
+  * `dokploy.redis.deploy()`: **Added**
+  * `dokploy.redis.changeStatus()`: **Added**
+  * `dokploy.redis.remove()`: **Added**
+  * `dokploy.redis.saveEnvironment()`: **Added**
+  * `dokploy.redis.update()`: **Added**
+  * `dokploy.mongo.create()`: **Added**
+  * `dokploy.mongo.get()`: **Added**
+  * `dokploy.mongo.start()`: **Added**
+  * `dokploy.mongo.stop()`: **Added**
+  * `dokploy.mongo.saveExternalPort()`: **Added**
+  * `dokploy.mongo.deploy()`: **Added**
+  * `dokploy.mongo.changeStatus()`: **Added**
+  * `dokploy.mongo.reload()`: **Added**
+  * `dokploy.mongo.remove()`: **Added**
+  * `dokploy.mongo.saveEnvironment()`: **Added**
+  * `dokploy.mongo.update()`: **Added**
+  * `dokploy.mariadb.create()`: **Added**
+  * `dokploy.mariadb.get()`: **Added**
+  * `dokploy.mariadb.start()`: **Added**
+  * `dokploy.mariadb.stop()`: **Added**
+  * `dokploy.mariadb.saveExternalPort()`: **Added**
+  * `dokploy.mariadb.deploy()`: **Added**
+  * `dokploy.mariadb.changeStatus()`: **Added**
+  * `dokploy.mariadb.remove()`: **Added**
+  * `dokploy.mariadb.saveEnvironment()`: **Added**
+  * `dokploy.mariadb.reload()`: **Added**
+  * `dokploy.mariadb.update()`: **Added**
+  * `dokploy.compose.create()`: **Added**
+  * `dokploy.compose.getOne()`: **Added**
+  * `dokploy.compose.update()`: **Added**
+  * `dokploy.compose.delete()`: **Added**
+  * `dokploy.compose.cleanQueues()`: **Added**
+  * `dokploy.compose.fetchSourceType()`: **Added**
+  * `dokploy.compose.randomizeCompose()`: **Added**
+  * `dokploy.compose.getConverted()`: **Added**
+  * `dokploy.compose.deploy()`: **Added**
+  * `dokploy.compose.redeploy()`: **Added**
+  * `dokploy.compose.stop()`: **Added**
+  * `dokploy.compose.getDefaultCommand()`: **Added**
+  * `dokploy.compose.refreshToken()`: **Added**
+  * `dokploy.compose.deployTemplate()`: **Added**
+  * `dokploy.compose.getTemplates()`: **Added**
+  * `dokploy.compose.getTags()`: **Added**
+  * `dokploy.user.getAll()`: **Added**
+  * `dokploy.user.byAuthId()`: **Added**
+  * `dokploy.user.byUserId()`: **Added**
+  * `dokploy.domain.create()`: **Added**
+  * `dokploy.domain.byApplicationId()`: **Added**
+  * `dokploy.domain.byComposeId()`: **Added**
+  * `dokploy.domain.generateDomain()`: **Added**
+  * `dokploy.domain.update()`: **Added**
+  * `dokploy.domain.get()`: **Added**
+  * `dokploy.domain.delete()`: **Added**
+  * `dokploy.destination.create()`: **Added**
+  * `dokploy.destination.testConnection()`: **Added**
+  * `dokploy.destination.getOne()`: **Added**
+  * `dokploy.destination.get()`: **Added**
+  * `dokploy.destination.remove()`: **Added**
+  * `dokploy.destination.update()`: **Added**
+  * `dokploy.backup.create()`: **Added**
+  * `dokploy.backup.get()`: **Added**
+  * `dokploy.backup.update()`: **Added**
+  * `dokploy.backup.remove()`: **Added**
+  * `dokploy.backup.manualBackupPostgres()`: **Added**
+  * `dokploy.backup.manualBackupMysql()`: **Added**
+  * `dokploy.backup.manualBackupMariadb()`: **Added**
+  * `dokploy.backup.manualBackupMongo()`: **Added**
+  * `dokploy.deployment.get()`: **Added**
+  * `dokploy.deployment.allByCompose()`: **Added**
+  * `dokploy.deployment.allByServer()`: **Added**
+  * `dokploy.mounts.create()`: **Added**
+  * `dokploy.mounts.remove()`: **Added**
+  * `dokploy.mounts.get()`: **Added**
+  * `dokploy.mounts.update()`: **Added**
+  * `dokploy.certificates.create()`: **Added**
+  * `dokploy.certificates.get()`: **Added**
+  * `dokploy.certificates.remove()`: **Added**
+  * `dokploy.certificates.all()`: **Added**
+  * `dokploy.settings.reloadServer()`: **Added**
+  * `dokploy.settings.reloadTraefik()`: **Added**
+  * `dokploy.settings.toggleDashboard()`: **Added**
+  * `dokploy.settings.cleanUnusedImages()`: **Added**
+  * `dokploy.settings.cleanUnusedVolumes()`: **Added**
+  * `dokploy.settings.cleanStoppedContainers()`: **Added**
+  * `dokploy.settings.cleanDockerBuilder()`: **Added**
+  * `dokploy.settings.cleanDockerPrune()`: **Added**
+  * `dokploy.settings.cleanAll()`: **Added**
+  * `dokploy.settings.cleanMonitoring()`: **Added**
+  * `dokploy.settings.saveSshPrivateKey()`: **Added**
+  * `dokploy.settings.assignDomainServer()`: **Added**
+  * `dokploy.settings.cleanSshPrivateKey()`: **Added**
+  * `dokploy.settings.updateDockerCleanup()`: **Added**
+  * `dokploy.settings.readTraefikConfig()`: **Added**
+  * `dokploy.settings.updateTraefikConfig()`: **Added**
+  * `dokploy.settings.readWebServerTraefikConfig()`: **Added**
+  * `dokploy.settings.updateWebServerTraefikConfig()`: **Added**
+  * `dokploy.settings.readMiddlewareTraefikConfig()`: **Added**
+  * `dokploy.settings.updateMiddlewareTraefikConfig()`: **Added**
+  * `dokploy.settings.checkAndUpdateImage()`: **Added**
+  * `dokploy.settings.updateServer()`: **Added**
+  * `dokploy.settings.getDokployVersion()`: **Added**
+  * `dokploy.settings.readDirectories()`: **Added**
+  * `dokploy.settings.updateTraefikFile()`: **Added**
+  * `dokploy.settings.readTraefikFile()`: **Added**
+  * `dokploy.settings.getIp()`: **Added**
+  * `dokploy.settings.getOpenApiDocument()`: **Added**
+  * `dokploy.settings.readTraefikEnv()`: **Added**
+  * `dokploy.settings.writeTraefikEnv()`: **Added**
+  * `dokploy.settings.haveTraefikDashboardPortEnabled()`: **Added**
+  * `dokploy.settings.readStats()`: **Added**
+  * `dokploy.settings.getLogRotateStatus()`: **Added**
+  * `dokploy.settings.toggleLogRotate()`: **Added**
+  * `dokploy.settings.haveActivateRequests()`: **Added**
+  * `dokploy.settings.toggleRequests()`: **Added**
+  * `dokploy.settings.isCloud()`: **Added**
+  * `dokploy.settings.health()`: **Added**
+  * `dokploy.security.create()`: **Added**
+  * `dokploy.security.get()`: **Added**
+  * `dokploy.security.delete()`: **Added**
+  * `dokploy.security.update()`: **Added**
+  * `dokploy.redirects.create()`: **Added**
+  * `dokploy.redirects.getOne()`: **Added**
+  * `dokploy.redirects.delete()`: **Added**
+  * `dokploy.redirects.update()`: **Added**
+  * `dokploy.port.create()`: **Added**
+  * `dokploy.port.get()`: **Added**
+  * `dokploy.port.delete()`: **Added**
+  * `dokploy.port.update()`: **Added**
+  * `dokploy.registry.create()`: **Added**
+  * `dokploy.registry.remove()`: **Added**
+  * `dokploy.registry.update()`: **Added**
+  * `dokploy.registry.getAll()`: **Added**
+  * `dokploy.registry.get()`: **Added**
+  * `dokploy.registry.testRegistry()`: **Added**
+  * `dokploy.cluster.getNodes()`: **Added**
+  * `dokploy.cluster.removeWorker()`: **Added**
+  * `dokploy.cluster.addWorker()`: **Added**
+  * `dokploy.cluster.addManager()`: **Added**
+  * `dokploy.notification.createSlack()`: **Added**
+  * `dokploy.notification.updateSlack()`: **Added**
+  * `dokploy.notification.testSlackConnection()`: **Added**
+  * `dokploy.notification.createTelegram()`: **Added**
+  * `dokploy.notification.updateTelegram()`: **Added**
+  * `dokploy.notification.testTelegramConnection()`: **Added**
+  * `dokploy.notification.createDiscord()`: **Added**
+  * `dokploy.notification.updateDiscord()`: **Added**
+  * `dokploy.notification.testDiscordConnection()`: **Added**
+  * `dokploy.notification.createEmail()`: **Added**
+  * `dokploy.notification.updateEmail()`: **Added**
+  * `dokploy.notification.testEmailConnection()`: **Added**
+  * `dokploy.notification.remove()`: **Added**
+  * `dokploy.notification.getAll()`: **Added**
+  * `dokploy.notifications.get()`: **Added**
+  * `dokploy.sshKeys.create()`: **Added**
+  * `dokploy.sshKeys.all()`: **Added**
+  * `dokploy.sshKey.remove()`: **Added**
+  * `dokploy.sshKey.get()`: **Added**
+  * `dokploy.sshKey.generate()`: **Added**
+  * `dokploy.sshKey.update()`: **Added**
+  * `dokploy.gitProvider.getAll()`: **Added**
+  * `dokploy.gitProvider.remove()`: **Added**
+  * `dokploy.bitbucket.create()`: **Added**
+  * `dokploy.bitbucket.get()`: **Added**
+  * `dokploy.bitbucket.providers()`: **Added**
+  * `dokploy.bitbucket.getRepositories()`: **Added**
+  * `dokploy.bitbucket.getBranches()`: **Added**
+  * `dokploy.bitbucket.testConnection()`: **Added**
+  * `dokploy.bitbucket.update()`: **Added**
+  * `dokploy.gitlab.create()`: **Added**
+  * `dokploy.gitlab.one()`: **Added**
+  * `dokploy.gitlab.providers()`: **Added**
+  * `dokploy.gitlab.getGitlabRepositories()`: **Added**
+  * `dokploy.gitlab.getGitlabBranches()`: **Added**
+  * `dokploy.gitlab.testConnection()`: **Added**
+  * `dokploy.gitlab.update()`: **Added**
+  * `dokploy.github.one()`: **Added**
+  * `dokploy.github.getRepositories()`: **Added**
+  * `dokploy.github.getBranches()`: **Added**
+  * `dokploy.github.getProviders()`: **Added**
+  * `dokploy.github.testConnection()`: **Added**
+  * `dokploy.github.update()`: **Added**
+  * `dokploy.server.create()`: **Added**
+  * `dokploy.server.all()`: **Added**
+  * `dokploy.server.withSshKey()`: **Added**
+  * `dokploy.server.setup()`: **Added**
+  * `dokploy.server.remove()`: **Added**
+  * `dokploy.server.update()`: **Added**
+  * `dokploy.servers.get()`: **Added**
+  * `dokploy.stripe.getProducts()`: **Added**
+  * `dokploy.stripe.createCheckoutSession()`: **Added**
+  * `dokploy.stripe.createCustomerPortalSession()`: **Added**
+  * `dokploy.stripe.canCreateMoreServers()`: **Added**
+  * `dokploy.admin.adminOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.admin.adminCreateUserInvitation()`: **Deleted** **Breaking** :warning:
+  * `dokploy.admin.adminRemoveUser()`: **Deleted** **Breaking** :warning:
+  * `dokploy.admin.adminGetUserByToken()`: **Deleted** **Breaking** :warning:
+  * `dokploy.admin.adminAssignPermissions()`: **Deleted** **Breaking** :warning:
+  * `dokploy.docker.dockerGetContainers()`: **Deleted** **Breaking** :warning:
+  * `dokploy.docker.dockerRestartContainer()`: **Deleted** **Breaking** :warning:
+  * `dokploy.docker.dockerGetConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.docker.dockerGetContainersByAppNameMatch()`: **Deleted** **Breaking** :warning:
+  * `dokploy.docker.dockerGetContainersByAppLabel()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authCreateAdmin()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authCreateUser()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authLogin()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authGet()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authLogout()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authGenerateToken()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authGenerate2FaSecret()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authVerify2FaSetup()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authVerifyLogin2Fa()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authDisable2Fa()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authSendResetPasswordEmail()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authResetPassword()`: **Deleted** **Breaking** :warning:
+  * `dokploy.auth.authConfirmEmail()`: **Deleted** **Breaking** :warning:
+  * `dokploy.project.projectCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.project.projectOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.project.projectAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.project.projectRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.project.projectUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationRedeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveBuildType()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveGithubProvider()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveGitlabProvider()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveBitbucketProvider()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveDockerProvider()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationSaveGitProdiver()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationMarkRunning()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationRefreshToken()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationCleanQueues()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationReadTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationUpdateTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.application.applicationReadAppMonitoring()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlSaveExternalPort()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlChangeStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mysql.mysqlUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresSaveExternalPort()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresChangeStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.postgres.postgresUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisSaveExternalPort()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisChangeStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redis.redisUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoSaveExternalPort()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoChangeStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mongo.mongoUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbStart()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbSaveExternalPort()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbChangeStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbSaveEnvironment()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbReload()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mariadb.mariadbUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeCleanQueues()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeFetchSourceType()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeRandomizeCompose()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeGetConvertedCompose()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeDeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeRedeploy()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeStop()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeGetDefaultCommand()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeRefreshToken()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeDeployTemplate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeTemplates()`: **Deleted** **Breaking** :warning:
+  * `dokploy.compose.composeGetTags()`: **Deleted** **Breaking** :warning:
+  * `dokploy.user.userAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.user.userByAuthId()`: **Deleted** **Breaking** :warning:
+  * `dokploy.user.userByUserId()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainByApplicationId()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainByComposeId()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainGenerateDomain()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.domain.domainDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationTestConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.destination.destinationUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupManualBackupPostgres()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupManualBackupMySql()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupManualBackupMariadb()`: **Deleted** **Breaking** :warning:
+  * `dokploy.backup.backupManualBackupMongo()`: **Deleted** **Breaking** :warning:
+  * `dokploy.deployment.deploymentAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.deployment.deploymentAllByCompose()`: **Deleted** **Breaking** :warning:
+  * `dokploy.deployment.deploymentAllByServer()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mounts.mountsCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mounts.mountsRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mounts.mountsOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.mounts.mountsUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.certificates.certificatesCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.certificates.certificatesOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.certificates.certificatesRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.certificates.certificatesAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReloadServer()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReloadTraefik()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsToggleDashboard()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanUnusedImages()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanUnusedVolumes()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanStoppedContainers()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanDockerBuilder()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanDockerPrune()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanMonitoring()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsSaveSshPrivateKey()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsAssignDomainServer()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCleanSshPrivateKey()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateDockerCleanup()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadWebServerTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateWebServerTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadMiddlewareTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateMiddlewareTraefikConfig()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsCheckAndUpdateImage()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateServer()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsGetDokployVersion()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadDirectories()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsUpdateTraefikFile()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadTraefikFile()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsGetIp()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsGetOpenApiDocument()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadTraefikEnv()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsWriteTraefikEnv()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsHaveTraefikDashboardPortEnabled()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsReadStats()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsGetLogRotateStatus()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsToggleLogRotate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsHaveActivateRequests()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsToggleRequests()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsIsCloud()`: **Deleted** **Breaking** :warning:
+  * `dokploy.settings.settingsHealth()`: **Deleted** **Breaking** :warning:
+  * `dokploy.security.securityCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.security.securityOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.security.securityDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.security.securityUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redirects.redirectsCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redirects.redirectsOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redirects.redirectsDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.redirects.redirectsUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.port.portCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.port.portOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.port.portDelete()`: **Deleted** **Breaking** :warning:
+  * `dokploy.port.portUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.registry.registryTestRegistry()`: **Deleted** **Breaking** :warning:
+  * `dokploy.cluster.clusterGetNodes()`: **Deleted** **Breaking** :warning:
+  * `dokploy.cluster.clusterRemoveWorker()`: **Deleted** **Breaking** :warning:
+  * `dokploy.cluster.clusterAddWorker()`: **Deleted** **Breaking** :warning:
+  * `dokploy.cluster.clusterAddManager()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationCreateSlack()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationUpdateSlack()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationTestSlackConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationCreateTelegram()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationUpdateTelegram()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationTestTelegramConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationCreateDiscord()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationUpdateDiscord()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationTestDiscordConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationCreateEmail()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationUpdateEmail()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationTestEmailConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.notification.notificationAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyGenerate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.sshKey.sshKeyUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitProvider.gitProviderGetAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitProvider.gitProviderRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketBitbucketProviders()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketGetBitbucketRepositories()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketGetBitbucketBranches()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketTestConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.bitbucket.bitbucketUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabGitlabProviders()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabGetGitlabRepositories()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabGetGitlabBranches()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabTestConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.gitlab.gitlabUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubGetGithubRepositories()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubGetGithubBranches()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubGithubProviders()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubTestConnection()`: **Deleted** **Breaking** :warning:
+  * `dokploy.github.githubUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverCreate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverOne()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverAll()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverWithSshKey()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverSetup()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverRemove()`: **Deleted** **Breaking** :warning:
+  * `dokploy.server.serverUpdate()`: **Deleted** **Breaking** :warning:
+  * `dokploy.stripe.stripeGetProducts()`: **Deleted** **Breaking** :warning:
+  * `dokploy.stripe.stripeCreateCheckoutSession()`: **Deleted** **Breaking** :warning:
+  * `dokploy.stripe.stripeCreateCustomerPortalSession()`: **Deleted** **Breaking** :warning:
+  * `dokploy.stripe.stripeCanCreateMoreServers()`: **Deleted** **Breaking** :warning:
